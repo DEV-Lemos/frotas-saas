@@ -1,0 +1,1603 @@
+Visão geral
+Conheça o sistema
+
+O sistema Frotas (Cloud) é uma solução com tecnologia em nuvem, que permite o controle e o gerenciamento total da frota do município, possibilitando que o usuário acompanhe a situação dos veículos, desde a sua disponibilidade até o controle de quilometragem rodada, bem como, informações relativas aos motoristas, ocorrências, revisões, seguros, entre outros.
+
+Suas funcionalidades estão voltadas para:
+
+controlar as despesas e reduzir os gastos por meio do gerenciamento detalhado dos abastecimentos e serviços realizados, sendo possível relacioná-los com o lançamento das despesas e demais gastos da frota;
+acompanhar os itinerários de viagem, utilizando a funcionalidade específica que permite o cadastramento de informações referentes às viagens e distâncias percorridas;
+integrar com outras soluções Betha, como os sistemas Compras (Cloud), Contratos, Patrimônio (Cloud) e Almoxarifado (Cloud), facilitando a rotina da entidade.
+A partir de agora, você terá acesso a detalhes importantes sobre a usabilidade desta solução e suas funcionalidades. Então aproveite ao máximo e lembre-se de nos reportar suas dúvidas, sugestões e reclamações. Assim, poderemos ajudá-lo e, com sua contribuição, poderemos melhorar ainda mais nossos sistemas!
+
+Como realizar o acesso ao sistema
+Vamos iniciar conhecendo como se dá o acesso ao sistema Frotas (Cloud).
+
+Ao acessar o sistema Frotas (Cloud), informe seu usuário e senha, cadastrados através da Central do Usuário e, após, clique em Acessar.
+
+executando
+
+Caso não possua cadastro, clique no botão Não possui uma conta? e efetue seu cadastro, após isso, acesse o sistema preenchendo as informações de Usuário e Senha.
+
+ATENÇÃO:
+Para ter acesso à entidade e seus módulos o usuário deve possuir as devidas permissões, que é concedida por meio do Gerenciador de acessos.
+
+Após efetuar o login, você será direcionado para a tela de seleção de Entidade que você deseja acessar, selecionando, também, o exercício no qual você deseja trabalhar.
+
+Ao acessar o sistema você visualizará a página Visão Geral, que conta com botões de atalho para as funcionalidades mais utilizadas nas rotinas do sistema, possibilitando maior agilidade nos processos.
+
+executando
+
+Além disso, no menu localizado na barra superior da tela é possível encontrar outras funcionalidades, que são divididas nos seguintes grupos processuais:
+
+Configurando;
+Administrando;
+Executando. 
+Solicitações de atendimento
+Através do menu Solicitações de atendimento, localizado no canto superior direito da tela, você poderá Abrir um chamado para a nossa equipe de suporte, acompanhar as Respostas pendentes, bem como, pode participar das Pesquisas disponíveis para melhorar nossas soluções.
+
+executando
+
+Ícone de Wi-fi
+executando
+
+Essa ferramenta é responsável por realizar testes de comunicação com o servidor da Betha. Por meio desses testes, é possível mensurar a latência tanto do computador local quanto dos servidores de teste, realizando uma análise entre os servidores da Betha e o dispositivo do usuário.
+
+Em situações em que o resultado não indica uma conexão de qualidade satisfatória, é efetuada uma comparação com outros servidores, a exemplo do Google e Microsoft.
+
+Importante ressaltar que a ferramenta somente classifica a qualidade da conexão como Baixa quando todos os testes apresentam esse mesmo nível. Caso os resultados dos testes sejam divergentes, prevalecerá o melhor entre eles.
+
+Convém destacar que, para o teste, o mais relevante é a latência da internet e não a sua velocidade.
+
+Se a conexão estiver boa, o sinal do ícone ficará verde e a seguinte mensagem será exibida ao passar o mouse por cima do ícone:
+
+executando
+
+Se a conexão estiver lenta, o sinal do ícone ficará amarelo e a seguinte mensagem será exibida ao passar o mouse por cima do ícone:
+
+executando
+
+Se a conexão estiver muito lenta, o sinal do ícone ficará vermelho e a seguinte mensagem será exibida ao passar o mouse por cima do ícone:
+
+executando
+
+Caso esteja sem conexão com a internet, o sistema será interrompido. Você deverá se reconectar para seguir com o uso do sistema:
+
+executando
+
+Essa ferramenta tem como finalidade alertar o usuário sobre o status de sua conexão, o qual, dependendo do nível, pode acarretar em lentidão, erros e até comprometer as atividades realizadas no sistema em uso.
+
+Pesquisa rápida
+No canto direito superior da tela também é possível encontrar o ícone de pesquisa rápida (lupa), onde você poderá localizar funcionalidades de forma mais ágil, buscando pelo termo desejado, veja:
+
+executando
+
+Tipos de infração
+Conheça o ambiente
+Este cadastro tem por objetivo permitir o registro e manutenção dos tipos de infração relacionados à infração de trânsito.
+
+Para acessar, utilize o ícone de pesquisa (lupa), localizado no canto superior direito da tela e, selecione a opção Tipos de infração.
+
+A tela Gerenciando cadastros auxiliares é dividida em duas colunas, na esquerda são listados todos os cadastros auxiliares disponíveis e, na coluna direita, são listados os cadastros referentes a opção selecionada.
+
+executando
+
++Tipo
+Para adicionar um novo tipo, ao acessar a funcionalidade o sistema já abrirá a tela Gerenciando cadastros auxiliares na tela específica, bastando clicar no botão +Tipo.
+
+A seguir, na tela Adicionando tipo de infração preencha as informações solicitadas (os campos com * são de preenchimento obrigatório).
+
+executando
+
+Para o preenchimento das informações solicitadas, tenha em mente o seguinte:
+
+Código: esse campo indica o número da infração que consta no CTB (Código de Trânsito Brasileiro);
+Descrição: nesse campo deve ser inserida a nomenclatura do tipo da infração;
+Amparo legal (CTB): esse campo indica a lei que consta no CTB (Código de Trânsito Brasileiro) que valida a infração;
+Gravidade: esse campo indica qual o tipo de gravidade desta infração. As opções são provenientes do cadastro de Tipos de gravidade;
+Infrator: esse campo indica o infrator desta infração. As opções são provenientes do cadastro de Tipos de infrator;
+Competência: esse campo indica qual o tipo de competência da infração. As opções são provenientes do cadastro de Tipos de competência;
+Pontos: nesse campo devem ser indicados quantos pontos o infrator perderá ao cometer a infração;
+Valor R$: esse campo indica o valor da multa a ser cobrado pela infração realizada.
+Após realizar o cadastro, é possível Editar por meio do ícone de lápis ou Excluir, clicando no ícone de lixeira.
+
+Pesquisar e Pesquisa avançada
+É possível realizar a pesquisa pelos tipos de infração cadastrados utilizando a barra de pesquisa no canto direito da tela, onde o usuário pode pesquisar pelo Código, Descrição, Amparo legal (CTB), Gravidade, Pontos e Valor.
+
+Ainda há a possibilidade de realizar uma pesquisa avançada, acessada através do ícone de funil.
+
+Tipos de competência
+Conheça o ambiente
+Esse cadastro tem por objetivo permitir o registro e manutenção dos tipos de competência relacionados à infração de trânsito, podendo ser localizado por meio do ícone de Pesquisa rápida (lupa)> guia Recursos > Tipos de competência.
+
+executando
+
++Tipo
+Para adicionar um novo tipo de competência, ao acessar a funcionalidade por meio do ícone de pesquisa (lupa) > Tipos de competência, o sistema já abrirá a tela Gerenciando cadastros auxiliares na funcionalidade, bastando clicar no botão +Tipo.
+
+A seguir, na tela Adicionando tipo de competência, insira a Descrição da competência que deseja cadastrar e, ao final clique em Salvar.
+
+executando
+
+Após realizar o cadastro, é possível Editar por meio do ícone de lápis ou Excluir, clicando no ícone de lixeira.
+
+Pesquisar e Pesquisa avançada
+É possível realizar a pesquisa pelas competências cadastradas utilizando a barra de pesquisa no canto direito da tela, onde o usuário pode pesquisar pela Descrição.
+
+Ainda há a possibilidade de realizar uma pesquisa avançada, acessada através do ícone de funil.
+
+Tipos de infrator
+Conheça o ambiente
+Este cadastro tem por objetivo permitir o registro e manutenção dos tipos de infrator relacionados à infração de trânsito, sendo localizado por meio do ícone de Pesquisa rápida (lupa)> guia Recursos > Tipos infrator.
+
+executando
+
++Tipo
+Para adicionar um novo tipo, ao acessar a funcionalidade o sistema já abrirá a tela Gerenciando cadastros auxiliares no cadastro específico, bastando clicar no botão +Tipo.
+
+A seguir, na tela Adicionando tipo de infrator insira uma Descrição e clique em Salvar.
+
+executando
+
+Após realizar o cadastro, é possível Editar por meio do ícone de lápis ou Excluir, clicando no ícone de lixeira.
+
+Pesquisar e Pesquisa avançada
+É possível realizar a pesquisa pelos tipos de infrator cadastrados utilizando a barra de pesquisa no canto direito da tela, onde o usuário pode pesquisar pela Descrição.
+
+Ainda há a possibilidade de realizar uma pesquisa avançada, acessada através do ícone de funil.
+
+Tipos de gravidade
+Conheça o ambiente
+Este cadastro tem por objetivo permitir o registro e manutenção dos tipos de gravidade relacionados à infração de trânsito e, seu acesso se dá por meio do ícone de Pesquisa rápida (lupa)> guia Recursos > Tipos de gravidade.
+
+executando
+
++Tipo
+Para adicionar um novo tipo, ao acessar a funcionalidade por meio do ícone de pesquisa (lupa) > Tipos de gravidade, o sistema já abrirá a tela Gerenciando cadastros auxiliares na funcionalidade, bastando clicar no botão +Tipo.
+
+A seguir, na tela Adicionando tipo de gravidade insira uma Descrição e clique em Salvar.
+
+executando
+
+Após realizar o cadastro, é possível Editar por meio do ícone de lápis ou Excluir, clicando no ícone de lixeira.
+
+Pesquisar e Pesquisa avançada
+É possível realizar a pesquisa pelos tipos de gravidade cadastrados utilizando a barra de pesquisa no canto direito da tela, onde o usuário pode pesquisar pela Descrição.
+
+Ainda há a possibilidade de realizar uma pesquisa avançada, acessada através do ícone de funil.
+
+Tipos de taxas e licenciamentos
+Conheça o ambiente
+Nessa funcionalidade são realizados os registros e manutenções dos tipos de taxas e licenciamentos a serem administrados no sistema.
+
+O acesso se dá por meio do ícone de Pesquisa rápida (lupa)> guia Recursos > Tipos de taxas e licenciamentos.
+
+executando
+
++Tipo
+Para adicionar um novo tipo, ao acessar a funcionalidade o sistema já abrirá a tela Gerenciando cadastros auxiliares no cadastro específico, bastando clicar no botão +Tipo.
+
+A seguir, na tela Adicionando tipo de taxa e licenciamento insira uma Descrição e clique em Salvar.
+
+executando
+
+Após realizar o cadastro, é possível Editar por meio do ícone de lápis ou Excluir, clicando no ícone de lixeira.
+
+Pesquisar e Pesquisa avançada
+É possível realizar a pesquisa pelos tipos já cadastrados na entidade utilizando a barra de pesquisa no canto direito da tela, onde o usuário pode pesquisar pela Descrição.
+
+Ainda há a possibilidade de realizar uma pesquisa avançada, acessada através do ícone de funil.
+
+Tipos de ocorrência dos veículos
+Conheça o ambiente
+Esse cadastro tem por objetivo permitir o registro e manutenção dos tipos de ocorrências que podem ocorrer com os veículos.
+
+Para acessar clique no ícone de Pesquisa rápida (lupa)> guia Recursos > Tipos de ocorrência dos veículos.
+
+executando
+
++Tipo
+Para adicionar um novo tipo, ao acessar a funcionalidade o sistema já abrirá a tela Gerenciando cadastros auxiliares no cadastro específico, bastando clicar no botão +Tipo.
+
+A seguir, na tela Adicionando tipo de ocorrência dos veículos insira uma Descrição e clique em Salvar.
+
+executando
+
+Após realizar o cadastro, é possível Editar por meio do ícone de lápis ou Excluir, clicando no ícone de lixeira.
+
+Pesquisar e Pesquisa avançada
+É possível realizar a pesquisa pelos tipos de ocorrência já cadastrados utilizando a barra de pesquisa no canto direito da tela, onde o usuário pode pesquisar pela Descrição.
+
+Ainda há a possibilidade de realizar uma pesquisa avançada, acessada através do ícone de funil.
+
+Tipos de finalidade de reserva de veículos
+Conheça o ambiente
+Este cadastro tem por objetivo permitir o registro e manutenção dos tipos de finalidades, relacionadas às reservas de veículos, podendo ser acessado por meio do ícone de Pesquisa rápida (lupa)> guia Recursos > Tipos de finalidades de reserva de veículos.
+
+executando
+
++Tipo
+Para adicionar um novo tipo, na tela Gerenciando cadastros auxiliares clique no botão +Tipo. A tela Adicionando tipo de finalidade de reserva de veículo abrirá e, então, insira uma Descrição e clique em Salvar.
+
+executando
+
+Após realizar o cadastro, é possível Editar por meio do ícone de lápis ou Excluir, clicando no ícone de lixeira.
+
+Pesquisar e Pesquisa avançada
+Para realizar a pesquisa pelos tipos cadastrados utilize a barra de pesquisa no canto direito da tela, podendo ser realizada a busca pela Descrição cadastrada.
+
+Ainda há a possibilidade de realizar uma pesquisa avançada, acessada através do ícone de funil.
+
+Tipos de despesa da frota
+Conheça o ambiente
+Nessa funcionalidade podem ser realizados os registros e manutenções dos tipos de despesas pertinentes à frota.
+
+Para acessar, utilize o ícone de Pesquisa rápida (lupa)> guia Recursos > Tipos de despesa da frota.
+
+executando
+
++Tipo
+Para realizar o cadastro de um novo tipo, adicione as respectivas informações por meio do botão +Tipo e preencha as informações solicitadas (os campos com * são de preenchimento obrigatório), sendo:
+
+Descrição: nesse campo deve ser inserido o nome do tipo de despesa a ser cadastrada;
+Categoria: indica a categoria do tipo da despesa dentre as opções de Abastecimento, Manutenção ou Outros;
+Origem: indica a origem do tipo da despesa dentre as opções de Combustíveis, Outros, Peças, Pneu, Serviços ou Troca de óleo.
+executando
+
+Após realizar o cadastro, é possível Editar por meio do ícone de lápis ou Excluir, clicando no ícone de lixeira.
+
+Pesquisar e Pesquisa avançada
+É possível realizar a pesquisa pelas despesas cadastradas utilizando a barra de pesquisa no canto direito da tela, onde o usuário pode pesquisar pela Descrição, Categoria ou Origem.
+
+Ainda há a possibilidade de realizar uma pesquisa avançada, acessada através do ícone de funil.
+
+Tipos de veículo e equipamento
+Conheça o ambiente
+Este cadastro tem por objetivo permitir o registro e manutenção dos tipos de veículos e equipamentos que serão gerenciados no sistema e pode ser acessado por meio do ícone de Pesquisa rápida (lupa)> guia Recursos > Tipos de veículo e equipamento.
+
+executando
+
++Tipo
+Para adicionar um novo tipo, ao acessar a funcionalidade o sistema já abrirá a tela Gerenciando cadastros auxiliares no cadastro específico, bastando clicar no botão +Tipo.
+
+A seguir, na tela Adicionando tipo de veículo ou equipamento insira uma Descrição e selecione a Classificação do veículo ou equipamento cadastrado. Por fim, clique em Salvar.
+
+executando
+
+Na guia Dados adicionais é possível inserir outras informações que o usuário julgar importante. Para isso, é necessária a criação e configuração dos Campos adicionais por meio do menu Utilitários > Campos adicionais.
+
+Após realizar o cadastro, é possível Editar por meio do ícone de lápis ou Excluir, clicando no ícone de lixeira.
+
+Pesquisar e Pesquisa avançada
+É possível realizar a pesquisa pelos tipos cadastrados na entidade utilizando a barra de pesquisa no canto direito da tela, onde o usuário pode pesquisar pela Descrição.
+
+Ainda há a possibilidade de realizar uma pesquisa avançada, acessada através do ícone de funil.
+
+Modelos de veículo
+Conheça o ambiente
+Este cadastro tem por objetivo permitir o registro dos modelos dos veículos e, seu acesso se dá por meio do ícone de Pesquisa rápida (lupa)> guia Recursos > Modelos de veículo.
+
+executando
+
++Modelo
+Para adicionar um novo tipo, na tela Gerenciando cadastros auxiliares clique no botão +Modelo e, na tela Adicionando modelo de veículo, insira o Código FIPE, a Marca e a Descrição do veículo.
+
+executando
+
+Na guia Dados adicionais é possível inserir outras informações que o usuário julgar importante. Para isso, é necessária a criação e configuração dos Campos adicionais por meio do menu Utilitários > Campos adicionais.
+
+Após realizar o cadastro, é possível Editar por meio do ícone de lápis ou Excluir, clicando no ícone de lixeira.
+
+Pesquisar e Pesquisa avançada
+É possível realizar a pesquisa pelos modelos de veículos cadastrados utilizando a barra de pesquisa no canto direito da tela, onde o usuário pode pesquisar pelo Código FIPE ou pela Descrição do veículo.
+
+Ainda há a possibilidade de realizar uma pesquisa avançada, acessada através do ícone de funil.
+
+Cargos
+Conheça o ambiente
+Esta funcionalidade tem por objetivo propiciar o cadastro e a manutenção de cargos de funcionários. Para acessar utilize o ícone de Pesquisa rápida (lupa)> guia Recursos > Cargos.
+
+executando
+
++Cargo
+Para adicionar um novo tipo, ao acessar a funcionalidade o sistema já abrirá a tela Gerenciando cadastros auxiliares no cadastro específico, bastando clicar no botão +Cargo.
+
+A seguir, na tela Adicionando cargo insira a Descrição e selecione o CBO (Classificação Brasileira de Ocupações) respectivo.
+
+executando
+
+Após realizar o cadastro, é possível Editar por meio do ícone de lápis ou Excluir, clicando no ícone de lixeira.
+
+Pesquisar e Pesquisa avançada
+É possível realizar a pesquisa pelos cargos cadastrados utilizando a barra de pesquisa no canto direito da tela, onde o usuário pode pesquisar pela Descrição ou CBO.
+
+Ainda há a possibilidade de realizar uma pesquisa avançada, acessada através do ícone de funil.
+
+Forma de pagamento
+Conheça o ambiente
+Nessa funcionalidade serão cadastradas as formas de pagamento utilizadas pela entidade nas multas de trânsito.
+
+Para acessar, utilize o ícone de Pesquisa rápida (lupa), localizado no canto superior direito da tela e, selecione a opção Forma de pagamento.
+
+A tela Gerenciando cadastros auxiliares é dividida em duas colunas, na esquerda são listados todos os cadastros auxiliares disponíveis e, na coluna direita, são listados os cadastros referentes a opção selecionada.
+
+executando
+
+Caso ao acessar a funcionalidade não sejam listados os cadastros já realizados, basta clicar no botão Atualizar.
+
+executando
+
++Forma de pagamento
+Para adicionar uma nova forma de pagamento, ao acessar a funcionalidade por meio do ícone de pesquisa (lupa) > Forma de pagamento, o sistema já abrirá a tela Gerenciando cadastros auxiliares na funcionalidade, bastando clicar no botão +Forma de pagamento.
+
+A seguir, na tela Adicionando forma de pagamento, insira a Descrição desejada e clique em Salvar ou em Salvar e adicionar novo, caso deseje cadastrar uma nova forma.
+
+executando
+
+Atenção:
+Cada Forma de pagamento deve ter uma Descrição única, ou seja, não é possível cadastrar mais de uma forma de pagamento com a mesma Descrição.
+
+Na guia Dados adicionais é possível inserir outras informações que o usuário julgar importante. Para isso, é necessária a criação e configuração dos Campos adicionais por meio do menu Utilitários > Campos adicionais.
+
+Após realizar o cadastro, é possível Editar por meio do ícone de lápis ou Excluir a forma de pagamento, clicando no ícone de lixeira.
+
+executando
+
+Pesquisar e Pesquisa avançada
+É possível realizar a pesquisa pelas formas de pagamento cadastradas utilizando a barra de pesquisa no canto direito da tela, onde o usuário pode pesquisar pela Descrição ou, ainda, realizar uma pesquisa avançada, clicando no ícone de funil.
+
+Utilitários
+Gerenciador de acessos
+O Gerenciador de acessos está disponível na aba Utilitários e, é mediante ele que são concedidos acessos a várias contas de usuários diferentes. Por meio deste recurso o usuário administrador pode liberar e restringir acessos, além de atender solicitações de acesso registradas por usuários na Suíte Cloud.
+
+Para acessar a funcionalidade, clique no ícone de engrenagem > Gerenciador de acessos.
+
+executando
+
+Após isso, você será direcionado para a tela de autorizações, onde poderá gerenciar os acessos dos usuários cadastrados.
+
+Para maiores informações acerca desta ferramenta, acesse a Central de Ajuda do Suíte Cloud, clicando aqui.
+
+Gerenciador de extensões
+Por meio do Gerenciador de extensões é possível administrar tudo o que foi executado no sistema, consultando parâmetros, métricas, metadados, além de realizar download das informações, reexecutar e solicitar assinaturas de relatórios.
+
+Além disso, é possível gerenciar toda a parte de agendamento de scripts e relatórios, possibilitando a edição, exclusão ou desativação.
+
+Também é por meio dessa aba que o usuário poderá gerenciar o que será compartilhado com outros usuários e grupos, controlando as variáveis disponíveis durante as execuções dos scripts.
+
+Para acessar a funcionalidade, clique no ícone de engrenagem > Gerenciador de extensões.
+
+executando
+
+Ao clicar na opção, uma tela será aberta contendo as guias Execuções, Agendamentos, Compartilhamentos e Variáveis de ambiente.
+
+executando
+
+Atenção:
+Para os usuários que não são administradores, só estarão disponíveis as guias Execuções e Agendamentos.
+
+Em cada guia é possível filtrar as informações a serem visualizadas, selecionando no botão Filtrar por a opção de filtro desejada pelo usuário.
+
+Para obter informações mais detalhadas sobre esta funcionalidade, acesse a Central de Ajuda do Suíte Cloud, clicando aqui.
+
+Notificações
+Clicando no ícone de sino localizado no canto superior direito da tela, você terá acesso às Notificações.
+
+Nesta aba, o usuário poderá obter informações acerca de tudo que foi realizado dentro dos sistemas aos quais ele possui acesso, sendo possível acompanhar a emissão de relatórios, visualizar agendamentos, cadastros salvos, alterados, ou excluídos, entre outros.
+
+Ainda, é possível que o usuário filtre as Notificações para que sejam listadas apenas as Não lidas, Lidas ou Em andamento.
+
+executando
+
+Novidades
+Na aba Novidades você conhece as melhorias disponibilizadas no sistema, acessando um link direto para a Central de Ajuda, com vídeos, manuais e outros conteúdos que auxiliarão você a usufruir ao máximo do sistema Frotas (Cloud).
+
+Também é possível filtrar as Novidades que serão listadas, podendo selecionar dentre as opções Não lidas e Lidas.
+
+
+
+Configurando
+É fundamental realizar as configurações iniciais para garantir o correto funcionamento das rotinas no sistema Frotas (Cloud). Essas configurações devem ser realizadas no primeiro acesso ao sistema.
+
+A seguir apresentaremos todas as configurações iniciais do sistema de forma detalhada:
+
+Parâmetros
+Gerais
+Nesta configuração serão estipulados os comportamentos do sistema em relação ao exercício que está sendo acessado.
+
+Para isso, acesse o menu Configurando > Parâmetros > Gerais.
+
+Guia Por exercício
+Na guia Por exercício serão indicados os parâmetros relativos ao exercício que está sendo utilizado e, a cada novo exercício torna-se obrigatória a sua configuração.
+
+Ao acessar esta guia, deverá ser selecionado o Exercício, que será o ano corrente.
+
+executando
+
+Caso o exercício a ser configurado ainda não esteja cadastrado, basta clicar no botão +Exercício e inserir o Novo exercício, bem como, selecionar a configuração de organograma a ser utilizada, dentre as opções já utilizadas ou Criar uma nova configuração específica para aquele exercício e, ao final clique em Salvar.
+
+executando
+
+Vale ressaltar que é possível Editar as informações de configuração ao optar por utilizar um organograma pré-existente, para isso, antes de selecionar o organograma clique no botão Editar, faça as alterações e, após isso, clique em Usar.
+
+executando
+
+Mudar configuração do organograma
+O sistema permite que seja alterada a configuração do organograma vigente no exercício corrente, utilizando para isso o botão Mudar configuração.
+
+executando
+
+Na tela Editando configuração de organograma faça as alterações desejadas e clique em Salvar.
+
+Atenção:
+Só é possível realizar essa modificação se não houver nenhum registro vinculado ao organograma.
+
+Guia Por entidade
+Nesta guia o usuário poderá definir se será realizado o controle de saldo dos empenhos nas movimentações, ou seja, se o sistema deve impedir que sejam movimentados valores superiores ao montante cadastrado no Empenho da contabilidade, evitando, assim, um excesso de gastos.
+
+Para efetuar o controle de saldo dos Empenhos, basta que o usuário marque (azul) a opção Controlar saldo do empenho nas movimentações por e, em seguida, selecione como deverá ser feito esse controle, se somente por Lançamento de despesa ou por Ordem de abastecimento e Lançamento de despesa.
+
+executando
+
+Com essa parametrização, ao cadastrar uma Ordem de abastecimento e serviço (menu Executando > Controle > Ordens de abastecimentos e serviços > +Abastecimento ou serviço), será exibido os campos Empenho e Contratação, quando a Origem da ordem for igual a Licitação ou Terceiros e, ao vinculá-los, o sistema irá controlar os valores, de modo que não ultrapasse o Saldo do empenho.
+
+executando
+
+Portal da transparência
+O sistema Frotas (Cloud) também disponibiliza suas informações para os sistemas Transparência Cloud e Transparência Fly, mas, para que seja realizada essa integração, ao acessar o sistema Frotas (Cloud) pela primeira vez é necessária a configuração de identificação das respectivas entidades.
+
+Para isso, utilize o menu Configurando > Parâmetros > Portal da transparência.
+
+executando
+
+Na tela Configurando portal da transparência deve ser preenchido o E-mail de retorno, pois sempre que for realizado o envio de alguma informação, o sistema enviará um e-mail de confirmação e/ou alerta de inconsistências.
+
+O próximo passo é marcar qual portal você deseja utilizar: Transparência Cloud ou Transparência Fly e, dependendo da opção selecionada, os demais campos serão habilitados ou desabilitados.
+
+executando
+
+Selecionando a opção Transparência Cloud, será habilitado o campo Carga inicial, onde deve ser indicado se a configuração se refere ao primeiro envio de dados (Sim ou Não). O Token de envio é informação única de cada entidade junto ao portal e, no campo Script, deve ser selecionado o script de integração utilizado para o envio das informações ao portal.
+
+Na opção Transparência Fly, no campo Data do primeiro envio deve ser informada a data para realização do primeiro envio de informações. O campo Data e hora do último envio será preenchido automaticamente pelo sistema com as informações do último envio ocorrido. No campo Nível do organograma é necessário indicar qual o nível do organograma a ser considerado para o envio de informações, ou seja, qual nível representa o setor no Portal da Transparência.
+
+Em seguida, o usuário deve informar a Chave de acesso da entidade no Portal da Transparência e, no campo Script, deve ser selecionado o script de integração utilizado para o envio das informações ao portal.
+
+Após preencher todas as informações, clique em Salvar e, depois, em Enviar ou, utilize o botão Salvar e enviar.
+
+executando
+
+O envio das informações deve ser feito de forma periódica, conforme a entidade julgar necessário, porém, o Gerenciador de scripts (Utilitários > Gerenciador de scripts) permite que seja realizado o agendamento para a execução do script de forma automática, desta forma, o usuário não precisa realizar os envios de forma manual.
+
+Portal do gestor
+Por meio dessa funcionalidade é possível realizar a configuração do sistema para realizar o envio de dados ao sistema de gestão da Betha, o Portal do gestor.
+
+O acesso se dá por meio do menu Configurando > Parâmetros > Portal do gestor.
+
+executando
+
+Na tela Configurando portal do gestor, insira, primeiramente, a Chave de acesso da entidade junto ao Portal e, em seguida, selecione o Script de interação que deve ser utilizado no envio das informações.
+
+Ao final, clique em Enviar.
+
+Modelo de relatórios
+Nesta tela serão configurados os modelos de documentos que devem ser utilizados como padrão na execução de relatórios em determinadas funcionalidades.
+
+Para realizar a configuração, acesse a funcionalidade por meio do menu Configurando > Parâmetros > Modelo de relatórios e, na tela Configurando relatório selecione o tipo de relatório desejado para cada item e, ao final, clique em Salvar.
+
+executando
+
+Lembre-se que os modelos disponíveis são aqueles listados no Gerenciador de relatórios, acessado por meio do menu Utilitários.
+
+Aplicativo
+Itens do checklist
+Conheça o ambiente
+Por meio desta funcionalidade é possível gerenciar os itens que serão listados no aplicativo Frotas, na funcionalidade Conferir itens do checklist, utilizada pelo motorista antes de usufruir algum veículo da frota da entidade.
+
+O acesso a funcionalidade se dá por meio do menu Configurando > Aplicativo > Itens do checklist.
+
+executando
+
+Na tela inicial são listados todos os itens cadastrados, juntamente com a sua Situação (Ativo ou Inativo).
+
+Pesquisar e Pesquisa avançada
+É possível realizar a pesquisa pelos itens cadastrados utilizando a barra de pesquisa no canto direito da tela, onde o usuário pode pesquisar pela Descrição do item.
+
+executando
+
+Ainda há a possibilidade de realizar uma pesquisa avançada, acessada através do ícone de funil.
+
+Filtrar por
+A funcionalidade ainda conta com diversos filtros para facilitar a localização dos itens. Para isso, utilize a barra Filtrar por, podendo filtrar os itens por Todos, Ativos ou Inativos.
+
+executando
+
++Item
+Para adicionar um novo item, clique no botão +Item.
+
+Na tela Adicionando item do checklist, insira a Descrição do item e, após, clique em Salvar ou Salvar e adicionar novo, para realizar o cadastramento de um novo item.
+
+executando
+
+A edição de um item já cadastrado só é permitida no sentido de modificar a Situação do item, ou seja, ativar o inativar. Para isso, clique no ícone de lápis contido no canto esquerdo da listagem.
+
+executando
+
+Para alterar a situação para Inativo, basta marcar o checkbox Inativar registro, clicando, ao final, em Salvar.
+
+executando
+
+Para Ativar, basta desmarcar o checkbox.
+
+Atenção:
+Só serão listados no aplicativo os itens que estiverem com status Ativo no sistema Frotas (Cloud).
+
+Veja como ficará a exibição do checklist no aplicativo Frotas:
+
+executando
+
+
+
+
+Administrando
+Estrutura organizacional
+Organogramas
+Cada município tem sua própria legislação que dita a estrutura organizacional, bem como, algumas observâncias na sociedade. Essa estrutura nada mais é que a forma pela qual as atividades desenvolvidas são divididas, organizadas e coordenadas. Num enfoque amplo, considera-se aspectos físicos, humanos, financeiros, jurídicos, administrativos e econômicos, e para cada órgão, são estabelecidas atribuições e responsabilidades específicas ao cargo ocupado. Veja abaixo um exemplo de estrutura organizacional municipal:
+
+executando
+
+Esta funcionalidade tem por objetivo realizar o cadastro estrutural, funcional e programático da entidade municipal. Pelo Organograma é possível organizar e identificar o código, a descrição e o tipo de administração a que pertence cada órgão, conforme veremos adiante.
+
+Conheça o ambiente
+Para acessar o cadastro de Organogramas, acesse o menu Administrando > Estrutura organizacional > Organogramas.
+
+A tela Organogramas abrirá, contendo todos os organogramas já cadastrados na entidade.
+
+executando
+
+Pesquisar e Pesquisa avançada
+É possível realizar a pesquisa pelos organogramas cadastrados utilizando a barra de pesquisa no canto direito da tela, onde o usuário pode pesquisar pela Descrição ou Número do organograma.
+
+executando
+
+Ainda há a possibilidade de realizar uma pesquisa avançada, acessada através do ícone de funil.
+
+E, para visualizar todos os organogramas cadastrados na entidade, basta clicar no ícone destacado abaixo:
+
+executando
+
+Caso a sua entidade não possua um organograma configurado, é necessário criar esta configuração.
+
+Criar configuração
+Para configurar um novo Organograma, clique no botão Criar configuração localizado no canto inferior esquerdo da tela.
+
+executando
+
+Na tela Adicionando configuração de organograma você poderá personalizar o organograma a ser utilizado na sua entidade, informando uma Descrição da configuração, o Nível e sua respectiva Descrição, bem como a Quantidade de dígitos e o Separador, sendo:
+
+Descrição da configuração: nome do organograma a ser utilizado, podendo ser utilizados caracteres numéricos e alfabéticos, por exemplo: Organograma 2023;
+Nível: são as subdivisões de cada organograma, podendo ter no máximo 13 níveis, os quais serão utilizados para especificar cada órgão/setor/entidade. Para adicionar níveis, clique em +Nível.
+Descrição: nome do órgão/setor/entidade que aquele nível representa.
+Quantidade de dígitos: você estabelece quantos dígitos representarão cada nível, num máximo de 10 dígitos.
+Separador: são os ícones que irão separar os níveis, você pode escolher entre ponto (.), barra (/), hífen (-) ou nenhum.
+executando
+
+Para Excluir o nível inserido, basta clicar no ícone de lixeira.
+
++Organograma
+Após a configuração do Organograma, deve ser incluído cada órgão/setor na configuração criada, a qual representa a entidade municipal. Para isso, clique no botão +Organograma e, na tela Adicionando organograma, informe o Número que representará aquele órgão/setor e a Descrição.
+
+Após, clique em Salvar ou Salvar e adicionar novo, para incluir um novo órgão/setor.
+
+executando
+
+Importante:
+Lembre-se da configuração criada para a sua entidade, ou seja, se você optou por utilizar um Organograma de três níveis, você deve cadastrar os órgãos e setores nesse formato.
+
+Entidades
+O cadastro Entidades contém informações básicas relativas à própria entidade municipal, como nome, CNPJ, endereço, e-mail, entre outros. Trata-se de uma informação primordial e inicial para uso do sistema.
+
+Para acessar este cadastro acesse o menu Administrando > Estrutura organizacional > Entidades e preencha as informações solicitadas (os campos com * são de preenchimento obrigatório) e, ao finalizar, clique em Salvar.
+
+executando
+
+Na guia Dados adicionais é possível inserir outras informações que o usuário julgar importante. Para isso, é necessária a criação e configuração dos Campos adicionais por meio do menu Utilitários > Campos adicionais.
+
+Catálogo
+Grupos e classes
+Conheça o ambiente
+Esta funcionalidade permite o registro e manutenção dos grupos e classes referentes à classificação dos materiais e serviços.
+
+Para acessar o ambiente utilize o menu Administrando > Catálogo > Grupos e classes.
+
+Pesquisar
+É possível realizar a pesquisa pelos grupos cadastrados utilizando a barra de pesquisa no canto direito da tela, onde o usuário pode pesquisar pela Descrição do grupo.
+
+executando
+
++Grupo e classe
+Ao acessar a funcionalidade, serão listados todos os grupos e classes cadastrados na entidade. Caso você deseje realizar um novo cadastro, clique no botão +Grupo e classe no canto superior esquerdo da tela.
+
+A tela Adicionando grupo abrirá. Nela você deve preencher a Descrição e clicar em +Classe. A tela Adicionando classe abrirá, onde você deverá preencher os campos indicados (os campos com * são de preenchimento obrigatório). Ao final, clique em Salvar ou, Salvar e adicionar novo se desejar adicionar uma nova classe
+
+executando
+
+Unidades de medida
+Conheça o ambiente
+Nesta funcionalidade é possível estabelecer os padrões para as medições de grandezas físicas utilizadas pela entidade. Para isso, acesse o menu Administrando > Catálogo > Unidades de medida.
+
+Para visualizar todas as unidades de medidas cadastradas na entidade, clique no ícone destacado abaixo:
+
+executando
+
+Pesquisar e Pesquisa avançada
+É possível realizar a pesquisa pelas unidades de medida cadastradas utilizando a barra de pesquisa no canto direito da tela, onde o usuário pode pesquisar pela Descrição, Descrição no plural ou Abreviatura.
+
+executando
+
+Ainda há a possibilidade de realizar uma pesquisa avançada, acessada através do ícone de funil. Aqui o usuário também pode utilizar o campo Outras opções e realizar a busca pela Grandeza e/ou se a unidade de medida é Fracionária, ou não.
+
+executando
+
+Filtrar por
+Também é possível filtrar as unidades a serem exibidas, dentre as opções Todos, Definidos pelo usuário, Padrões, Ativos e Inativos, dispostas na barra Filtrar por.
+
+executando
+
+Veja que as Unidades de medida podem ser classificadas (e filtradas) por Ativas e Inativas, inclusive aquelas que são consideradas registros padrão.
+
+O usuário poderá ativar e desativar os cadastros clicando no ícone de lápis contido no canto direito da unidade que deseja classificar.
+
+executando
+
+Para ativar ou inativar um cadastro, basta marcar ou desmarcar o checkbox Registro desativado, veja:
+
+executando
+
+É possível realizar a ativação ou inativação em lote, para isso, inicialmente, na barra Filtrar por, selecione a guia Ativos ou Inativos e, em seguida selecione os registros desejados, marcando os checkboxes e, clique no botão Ativar ou Desativar, dependendo da situação em que se encontram os cadastros selecionados.
+
+executando
+
+Atenção:
+A classificação das Unidades de medida impacta diretamente no cadastro de Materiais e serviços, pois durante o cadastramento dos materiais o campo Unidade de medida listará apenas os cadastros que foram classificados como Ativos na funcionalidade.
+
++Unidade de medida
+O sistema já possui as unidades de medida padrão previamente disponibilizadas, as quais não podem ser editadas ou excluídas, que estão listadas no filtro Padrões.
+
+Para adicionar uma nova unidade de medida, clique no botão +Unidade de medida.
+
+A tela Adicionando unidade de medida abrirá e nela devem ser preenchidos os campos conforme a unidade a ser adicionada.
+
+executando
+
+Insira a Descrição no singular, a forma de Abreviatura da unidade e a Descrição no plural. Em seguida, no campo Grandeza, informe a grandeza a ser utilizada para medir a unidade cadastrada, selecionando dentre as diversas opções disponíveis e, por último, informe se a unidade Possui fracionamento, ou seja, se pode ser informada em números decimais ou, se deve ser utilizado apenas números inteiros.
+
+Caso deseje incluir mais informações, pode ser utilizada a aba Dados adicionais, mas lembre-se, esta aba só poderá ser preenchida se forem adicionados formulários através da funcionalidade Campos adicionais (menu Utilitários > Campos adicionais).
+
+Ao finalizar o preenchimento das informações clique em Salvar ou, caso deseje adicionar uma nova unidade de medida, clique em Salvar e adicionar novo.
+
+Materiais e serviços
+Conheça o ambiente
+Esta funcionalidade permite o registro e manutenção dos materiais e serviços que são administrados pelo almoxarifado da entidade.
+
+O acesso é realizado por meio do menu Administrando > Catálogo > Materiais e serviços.
+
+executando
+
+Pesquisar e Pesquisa avançada
+É possível realizar a pesquisa pelos materiais e serviços cadastrados utilizando a barra de pesquisa no canto direito da tela, onde o usuário pode pesquisar pelo Código ou pela Descrição.
+
+Ainda há a possibilidade de realizar uma pesquisa avançada, acessada através do ícone de funil. Aqui o usuário também pode utilizar o campo Outras opções e realizar a busca pelo Tipo do material, Classificação, Grupo, Tipo de combustível e Unidade de medida.
+
+executando
+
+Filtrar por
+Para facilitar a visualização, é possível filtrar os materiais e serviços a serem exibidos, utilizando a barra Filtrar por, que permite a visualização por situação (Todos, Ativo ou Inativo).
+
+executando
+
++Material ou serviço
+Para adicionar um novo material ou serviço, clique no botão +Material ou serviço e, preencha as informações de Descrição, Grupo e Classe que o material ou serviço pertence. Também deve ser selecionado o Tipo dentre as opções Material, Bem permanente ou Serviço.
+
+Dependendo do Tipo selecionado, serão disponibilizados pelo sistema novos campos de preenchimento obrigatório, sendo:
+
+Tipo Material: deverá ser preenchida a Classificação, a Unidade de medida (conforme cadastro de Unidades de medida) e se o material é Estocável, ou não.
+
+Tipo Bem permanente: deverão ser preenchidos os campos Unidade de medida (conforme cadastro de Unidades de medida) e se o bem é Estocável, ou não.
+
+Tipo Serviço: deverá ser preenchida a Unidade de medida (conforme cadastro de Unidades de medida).
+
+Lembre-se que no campo Unidade de medida só será possível selecionar uma unidade classificada como Ativa, portanto, caso a unidade desejada esteja Inativa na funcionalidade própria, antes de realizar o cadastro de um material ou serviço você deve alterar a situação.
+
+É importante mencionar que o Código do material é sugestionado pelo sistema de forma sequencial, porém, é possível alterar, caso seja necessário.
+
+Os campos Grupo e Classe são relativos aos cadastrados no menu Grupos e classes, por isso, caso você não encontre o Grupo, Classe ou até mesmo a Unidade de medida ao qual pertence aquele material ou serviço, basta cadastrá-lo no menu correspondente ou, clicar na flecha havida ao lado do botão +Material ou serviço e selecionar a opção desejada, veja:
+
+executando
+
+Após inserir os dados iniciais, você deve preencher as Especificações do Material ou serviço a ser cadastrado, informando um Código, que é sugestionado pelo sistema, mas pode ser modificado e, a Descrição.
+
+Para adicionar uma nova especificação, clique no botão +Especificação.
+
+executando
+
+Vale ressaltar que, caso você esteja cadastrando um material ou serviço que possui variantes, você pode realizar apenas um cadastro, mas adicionar as diversas variantes nas Especificações. Por exemplo, no caso de você estar cadastrando o Material: caneta, a descrição inicial será generalizada, mas nas Especificações você poderá colocar suas variantes, cada uma delas com um código próprio, evitando assim a necessidade de se criar diversos cadastros para um mesmo material ou serviço.
+
+executando
+
+O sistema ainda permite que sejam vinculadas imagens de referência para cada Especificação do material ou serviço cadastrado. Para isso, basta clicar no botão Adicionar imagens > +Imagem e selecionar o arquivo desejado. O sistema suporta arquivos nos formatos JPG, PNG e JPEG, com tamanho de até 25MB.
+
+executando
+
+Para visualizar as imagens vinculadas a uma especificação, o usuário deve acessar o ambiente Adicionando imagens, e, se houver mais de uma imagem anexada a Especificação, será possível navegar pelos arquivos utilizando os botões disponíveis na parte inferior da tela.
+
+executando
+
+Ainda, é possível desativar um cadastro de material ou serviço, clicando no checkbox Registro desativado, localizado no canto inferior esquerdo da tela. Ao selecionar esta opção, deverá ser informada também a Data de inativação do material ou serviço.
+
+executando
+
+Veículos e equipamentos
+Veículos e equipamentos
+Conheça o ambiente
+Essa funcionalidade permite realizar o registro dos veículos da frota e o cadastramento dos equipamentos da entidade.
+
+O acesso é realizado por meio do menu Administrando > Veículos e equipamentos > Veículos e equipamentos.
+
+executando
+
+Pesquisar e Pesquisa avançada
+É possível realizar a pesquisa pelos materiais e serviços cadastrados utilizando a barra de pesquisa no canto direito da tela, onde o usuário pode pesquisar pela Placa, Descrição, CPF do motorista, Nome do motorista ou Organograma do veículo.
+
+executando
+
+Ainda há a possibilidade de realizar uma pesquisa avançada, acessada através do ícone de funil.
+
+Movimentações do veículo/equipamento
+Clicando no ícone de relógio, localizado no canto direito da listagem, é possível visualizar todas as movimentações realizadas no veículo ou equipamento.
+
+executando
+
+executando
+
+Ainda, clicando na flecha localizada no canto direito de cada movimentação, podem ser visualizadas informações como Data, Organograma, Motorista e o Fornecedor do veículo/equipamento.
+
+executando
+
++Veículo ou equipamento
+Para inserir um novo registro, utilize o botão +Veículo ou equipamento.
+
+A tela Adicionando veículo ou equipamento é dividida em sete guias:
+
+Guia Informações gerais
+Nesta guia serão inseridas as informações gerais do veículo ou equipamento a ser cadastrado, sendo:
+
+Placa: deve ser informada a placa do veículo ou o número de identificação do equipamento;
+Descrição: campo destinado ao nome do veículo ou equipamento que está sendo cadastrado;
+Agregado: neste campo deve ser indicado se o veículo ou equipamento que está sendo cadastrado pode ser utilizado como uma carroceria agregada, em caso positivo, marcar o checkbox;
+Patrimônio: inserir o número da placa, descrição ou número do comprovante junto ao Patrimônio da entidade;
+Data de aquisição: indicar a data de aquisição do veículo ou equipamento;
+Fornecedor: informar o nome do Fornecedor do veículo ou equipamento, conforme cadastro de Fornecedores;
+Nº do documento fiscal: campo destinado à indicação do número da nota fiscal da aquisição do veículo ou equipamento;
+Valor da aquisição: indicar o valor da aquisição do veículo ou equipamento;
+Estado de conservação: indicar o estado de conservação do veículo ou equipamento;
+Vínculo: indicar qual o vínculo do veículo ou equipamento com a entidade, se é Próprio, Cedido, Locado ou Outros;
+Proprietário: caso o veículo ou equipamento não seja Próprio da entidade, nesse campo deve ser indicado o seu proprietário;
+Classificação: deve ser indicada qual a classificação, ou seja se o veículo ou equipamento é de Passageiros, Carga, Tração ou Outros;
+Nº de passageiros: se for um veículo ou equipamento com Classificação igual a Passageiros, indicar o número de passageiros suportado;
+Tipo: este campo se refere ao tipo do veículo ou equipamento e consta as opções provenientes do cadastro de Tipos de veículo e equipamento;
+Modelo: este campo se refere ao modelo do veículo ou equipamento. As opções são provenientes do cadastro de Modelos de veículo;
+Renavam: neste campo pode ser informado o número do Renavam (Registro Nacional de Veículos Automotores) do veículo;
+Chassi: este campo indica a numeração do Chassi, que diz respeito a identificação do veículo;
+Nº de série: caso o veículo ou equipamento possua um número de série, este deve ser indicado nesse campo;
+Ano de fabricação: este campo indica o ano de fabricação do veículo ou equipamento;
+Ano do modelo: indicar o ano do modelo do veículo ou equipamento;
+Marcação: neste campo deve ser indicada a unidade de medida em que ocorre a marcação de uso do veículo ou equipamento, dentre as opções de Km, Horas ou Milhas;
+Nº de dígitos: com base no campo anterior, neste campo o usuário deve indicar qual a quantidade de dígitos utilizada na marcação, dentre as opções disponíveis que são 5 (cinco) ou 6 (seis) dígitos;
+Cor: este campo indica a cor do veículo ou equipamento;
+Potência: indicar a potência do veículo ou equipamento;
+Cilindradas: indicar as cilindradas do veículo ou equipamento;
+Data de inativação: caso o veículo ou equipamento deixe de ser utilizado pela entidade, deve ser indicada a data de inativação do veículo ou equipamento.
+executando
+
+Ainda, no campo Placa, clicando no botão Histórico (ícone de relógio) é possível visualizar todo o histórico das placas do veículo, com as informações de data e horário da criação da placa e o nome do usuário realizou a alteração.
+
+executando
+
+Guia Combustíveis
+Nessa guia serão inseridos os gastos com os combustíveis utilizados pelo veículo ou equipamento.
+
+Para efetuar um novo registro basta clicar no botão +Combustível e preencher com as informações solicitadas (os campos com * são de preenchimento obrigatório).
+
+executando
+
+Guia Organogramas
+Aqui deve ser inserido o Organograma ao qual o veículo ou equipamento está relacionado.
+
+Clique no botão +Organograma e insira, primeiramente, a Data de início, ou seja, quando o veículo ou equipamento passou a estar relacionado a um organograma e, em seguida, informe o Organograma ao qual ele está relacionado.
+
+executando
+
+Guia Motoristas
+Nessa guia serão informados os Motoristas que utilizam o veículo ou equipamento.
+
+Para isso, clique em +Motorista e insira as informações solicitadas.
+
+executando
+
+Guia Agregados
+Essa guia é utilizada nos casos em que o veículo ou equipamento trata-se de um Agregado, ou seja, quando sua utilização está relacionada a outro veículo ou equipamento.
+
+Vale ressaltar que só é possível agregar um veículo ou equipamento se não estiver marcada a opção Agregado na guia Informações gerais, isso porque um veículo/equipamento que é agregado, não pode ter veículos/equipamentos agregados a ele.
+
+Para inserir um novo registro, clique em +Agregado e selecione o veículo ou equipamento a ser vinculado. Serão listados somente os veículos e equipamentos que foram marcados como Agregado na guia Informações gerais.
+
+executando
+
+Guia Anexos
+Nesta guia poderão ser inseridos arquivos que se referem ao veículo ou equipamento, como nota fiscal, documento do veículo ou outros.
+
+Para inserir um anexo, basta clicar em +Anexo ou arrastar os arquivos para a tela correspondente.
+
+executando
+
+Guia Dados adicionais
+Na guia Dados adicionais é possível inserir outras informações que o usuário julgar importante. Para isso, é necessária a criação e configuração dos Campos adicionais por meio do menu Utilitários > Campos adicionais.
+
+Ao finalizar a inserção das informações, clique em Salvar.
+
+Pessoas
+Fornecedores
+Conheça o ambiente
+Nesta funcionalidade serão procedidos os cadastros das pessoas físicas e jurídicas que fornecerão materiais ou prestarão serviços à entidade. O acesso se dá pelo menu Administrando > Pessoas > Fornecedores.
+
+executando
+
+Pesquisar e Pesquisa avançada
+É possível realizar a pesquisa pelos fornecedores cadastrados utilizando a barra de pesquisa no canto direito da tela, onde o usuário pode pesquisar pelo Nome do fornecedor e/ou CPF/CNPJ.
+
+Ainda há a possibilidade de realizar uma pesquisa avançada, acessada através do ícone de funil. Aqui o usuário também pode utilizar o campo Outras opções e realizar a busca pela Situação e Tipo de fornecedor.
+
+executando
+
+Consulta Receita Federal
+Na página inicial do cadastro de Fornecedores está disponível o recurso Consulta Receita Federal.
+
+executando
+
+Por meio deste recurso o usuário poderá informar o CNPJ do Fornecedor a ser cadastrado e, automaticamente, o sistema buscará os dados e permitirá a inclusão do fornecedor.
+
+Caso o usuário busque por um CNPJ já cadastrado na entidade, o sistema realizará a consulta e permitirá a atualização de dados.
+
+executando
+
+Também é possível realizar a consulta diretamente na tela Adicionando fornecedor (botão +Fornecedor), basta clicar na opção Consultar Receita Federal.
+
+executando
+
+Para realizar a atualização de um fornecedor do tipo Pessoa Jurídica já cadastrado na entidade, clique sobre o número do CNPJ; a tela Consultando Receita Federal aparecerá e, caso haja necessidade de atualizar os dados, clique no botão Atualizar dados, no canto inferior direito da tela.
+
+executando
+
+executando
+
++Fornecedor
+Para inserir um novo registro, clique no botão +Fornecedor e preencha os campos solicitados, conforme as guias apresentadas.
+
+Ressalta-se que os dados aqui cadastrados são muito importantes, devendo ser inserido o maior número de informações, a fim de facilitar a localização do fornecedor posteriormente.
+
+Guia Dados pessoais
+Nesta guia serão inseridos os dados básicos do fornecedor, seja ele pessoa física ou jurídica, sendo solicitadas informações diferentes conforme o tipo de pessoa que está sendo cadastrada, veja:
+
+executando
+
+executando
+
+Após preencher as informações solicitadas, passe para a guia seguinte.
+
+Guia Contas bancárias
+Nesta guia, comum para os cadastros de pessoa física e jurídica, devem ser inseridos os dados bancários do fornecedor, clicando no botão +Conta e preenchendo as informações solicitadas (os campos com * são de preenchimento obrigatório).
+
+executando
+
+Guia CNAE
+Nesta guia será possível cadastrar o CNAE (Classificação Nacional de Atividades Econômicas) dos fornecedores, tanto referente a atividade principal, quanto às atividades secundárias (se houver).
+
+O cadastro de CNAE é realizado por meio do botão +CNAE, constante no cadastro de Fornecedores > guia CNAE.
+
+executando
+
+O campo Adicionar CNAE permite a busca pelo Código da atividade ou pela Descrição da atividade. Ao realizar a pesquisa, basta selecionar o CNAE desejado.
+
+executando
+
+Para definir a Atividade principal, basta selecionar o checkbox constante no canto esquerdo da listagem (azul).
+
+executando
+
+O sistema ainda permite Importar dados do CNAE da Receita Federal, clicando na flecha havida ao lado do botão +CNAE. Ao confirmar a operação, o sistema irá realizar a importação dos dados.
+
+executando
+
+Os CNAEs cadastrados também poderão ser verificados ao criar/atualizar um Fornecedor por meio do widget Consulta Receita Federal.
+
+executando
+
+Funcionários
+Conheça o ambiente
+Nesta funcionalidade serão procedidos os registros dos funcionários que estão envolvidos com a frota da entidade.
+
+O acesso se dá pelo menu Administrando > Pessoas > Funcionários.
+
+executando
+
+Pesquisar e Pesquisa avançada
+É possível realizar a pesquisa pelos funcionários cadastrados utilizando a barra de pesquisa no canto direito da tela, onde o usuário pode pesquisar pelo Nome, CPF ou Cargo.
+
+Ainda há a possibilidade de realizar uma pesquisa avançada, acessada através do ícone de funil.
+
++Funcionário
+Para inserir um novo registro, clique no botão +Funcionário e preencha os campos solicitados (os campos com * são de preenchimento obrigatório).
+
+executando
+
+Motoristas
+Conheça o ambiente
+
+Essa funcionalidade permite realizar o cadastramento dos motoristas da frota da entidade.
+
+O acesso se dá pelo menu Administrando > Pessoas > Motoristas.
+
+executando
+
+Pesquisar e Pesquisa avançada
+É possível realizar a pesquisa pelos funcionários cadastrados utilizando a barra de pesquisa no canto direito da tela, onde o usuário pode pesquisar pelo Nome, CPF ou Nº da CNH.
+
+executando
+
+Ainda há a possibilidade de realizar uma pesquisa avançada, acessada através do ícone de funil.
+
++Motorista
+Para inserir um novo registro, clique no botão +Motorista e preencha os campos solicitados (os campos com * são de preenchimento obrigatório).
+
+executando
+
+Na guia Anexos podem ser inseridos documentos pertinentes ao cadastramento, utilizando o botão +Anexo.
+
+Ainda, na guia Dados adicionais é possível inserir outras informações que o usuário julgar importante. Para isso, é necessária a criação e configuração dos Campos adicionais por meio do menu Utilitários > Campos adicionais.
+
+Endereços
+Endereços
+Conheça o ambiente
+Por meio dessa funcionalidade serão realizados os cadastros dos endereços a serem utilizados no cadastro de Multas de trânsito (menu Executando > Custos > Multas de trânsito).
+
+O acesso à funcionalidade se dá por meio do menu Administrando > Endereços > Endereços.
+
+executando
+
+O cadastro de Endereços é dividido em sete guias e, cada guia representa um cadastro, ou seja, dependendo da guia selecionada o usuário poderá adicionar uma informação diferente.
+
+executando
+
+Se ao acessar a tela desejada não seja apresentada a listagem dos endereços cadastrados, clique no botão Atualizar.
+
+executando
+
+Pesquisar e Pesquisa avançada
+É possível realizar a pesquisa pelos endereços cadastrados utilizando a barra de pesquisa no canto direito da tela, onde o usuário pode pesquisar pela Descrição, Tipo, Município e CEP.
+
+Ainda há a possibilidade de realizar uma pesquisa avançada, acessada através do ícone de funil.
+
+Filtrar por
+O sistema ainda conta com diversos filtros para facilitar a localização do endereço desejado. Para isso, utilize a barra Filtrar por, disponível em todas as guias do sistema, selecionando entre as opções Todos, Definidos pelo usuário ou Padrões.
+
+executando
+
++Logradouro
+Para inserir um novo registro, clique no botão +Logradouro e, na tela Adicionando logradouro preencha as informações solicitadas (os campos com * são de preenchimento obrigatório).
+
+executando
+
+O cadastro dos demais tipos de endereços (Condomínios, Loteamentos, Bairros, Distritos, Estados e Municípios) segue o mesmo padrão: selecione a guia desejada e clique no botão para adicionar um novo cadastro e preencha os campos solicitados.
+
+Vale ressaltar que, independente da guia em que o usuário esteja, clicando na flecha localizada ao lado do botão de adição o sistema mostrará uma listagem das guias cadastrais existentes, podendo o usuário migrar de uma guia para outra de forma mais ágil, veja:
+
+executando
+
+Controle
+Empenhos
+Conheça o ambiente
+Esse ambiente permite que o usuário acompanhe os Empenhos utilizados nas Ordens de abastecimentos e serviços e nas Despesas do exercício logado. As informações aqui listadas são oriundas do sistema Contábil (Cloud).
+
+O acesso ao ambiente se dá por meio do menu Administrando > Controle > Empenhos.
+
+Ao acessar a funcionalidade serão listados todos os empenhos vinculados às ordens de abastecimento e serviço, demonstrando o Valor empenhado, o valor Total das ordens, o valor Total das Despesas e o Saldo do empenho.
+
+executando
+
+Se, por exemplo, uma ordem de abastecimento vinculada a um Empenho foi executada, o valor desta ordem será diminuído da coluna Total das ordens e somado na coluna Total das despesas.
+
+A listagem é atualizada automaticamente quando da vinculação de um novo Empenho no sistema Frotas (Cloud), até mesmo nos casos de anulação de empenho e complemento do valor do empenho.
+
+No entanto, o usuário pode clicar em Sincronizar valor empenhado para atualizar a situação dos empenhos. Os registros em que o empenho é inexistente ou não está sincronizado com a contabilidade serão identificados pelo sistema com um ícone de alerta no canto direito da listagem.
+
+executando
+
+
+
+
+Executando
+Controles
+Ordens de abastecimento e serviços
+Por meio dessa funcionalidade podem ser efetuados os registros das ordens de abastecimento ou das execuções de serviços emitidas pela entidade.
+
+Para acessá-la utilize o menu Executando > Controles > Ordens de abastecimento e serviços.
+
+executando
+
+Pesquisar e Pesquisa avançada
+É possível realizar a pesquisa pelas ordens cadastradas utilizando a barra de pesquisa no canto direito da tela, onde o usuário pode pesquisar pelo Nº da ordem, Descrição do veículo/equipamento, Placa do veículo/equipamento, Nome do motorista, CPF do motorista ou Nº de controle.
+
+executando
+
+Ainda há a possibilidade de realizar uma pesquisa avançada, acessada através do ícone de funil. Aqui o usuário também pode utilizar o campo Outras opções e realizar a busca pelo Tipo da ordem.
+
+executando
+
++Abastecimento ou serviço
+Para inserir um novo registro, clique no botão +Abastecimento ou serviço. A tela Adicionando ordem de abastecimento ou serviço é dividida em duas guias: Informações gerais e Dados adicionais.
+
+Na guia Informações gerais temos duas abas: Informações gerais e Itens. Na primeira, devem ser inseridas os dados gerais sobre o abastecimento ou serviço, sendo:
+
+Data: deve ser informada a data do cadastramento da ordem;
+Veículo/Equipamento: o usuário deve selecionar o veículo/equipamento ao qual será destinado aquele abastecimento ou serviço. As opções disponíveis são oriundas do cadastro de Veículos e equipamentos;
+Nº de controle: nesse campo poderá ser informado o número da ordem que está sendo cadastrada;
+Responsável: aqui deverá ser indicado o responsável pelo cadastramento da ordem. As opções disponíveis são oriundas do cadastro de Responsáveis;
+Motorista: nesse campo deve ser inserido o nome do motorista que irá disponibilizar o veículo para abastecimento ou execução do serviço. As opções disponíveis são oriundas do cadastro de Motoristas;
+Tipo: o usuário deverá informar se a ordem se refere a um Abastecimento ou Serviço e, dependendo da opção selecionada, outros campos serão habilitados ou desabilitados;
+Origem: nesse campo deverá ser informada a origem da ordem. Se o campo Tipo for igual a Abastecimento, as opções de origem são Licitação, Estoque ou Terceiros e, em se tratando de Serviço, as opções de origem serão Licitação ou Terceiros;
+Organograma: nesse campo deve ser selecionado o organograma responsável pela ordem. As opções disponíveis são oriundas do cadastro de Organogramas que devem estar informadas no exercício vigente;
+Contratação: esse campo será habilitado apenas quando a Origem for igual a Licitação. Nele deve ser selecionada a Contratação (oriunda do sistema Contratos) que ensejou a ordem cadastrada;
+Empenho: esse campo será habilitado apenas quando a Origem for igual a Licitação ou Terceiros. O usuário deve selecionar o Empenho vinculado à Contratação, o que permite o controle de saldo, se assim for configurado.
+Atenção!
+Somente serão relacionados os Empenhos que estiverem vinculados à Contratação previamente selecionada. Portanto, se no sistema Contábil (Cloud) não foi vinculada nenhuma Contratação ao Empenho respectivo, este não será disponibilizado na listagem quando da seleção da Contratação. Caso não seja informada nenhuma Contratação, o sistema listará todos os Empenhos disponíveis para seleção, obedecendo às seguintes regras:
+
+Se a Origem for igual a Terceiros, serão listados todos os Empenhos;
+Se a Origem for diferente de Terceiros, os Empenhos serão filtrados por Fornecedor, porém, se houver Contratação informada, serão listados os empenhos vinculados à ela;
+Serão buscados os Empenhos em todas as entidades do sistema Contábil (Cloud).
+Fornecedor: nesse campo deverá ser selecionado o fornecedor que realizará o abastecimento ou execução do serviço. As opções disponíveis são oriundas do cadastro de Fornecedores;
+Observações: nesse campo poderão ser inseridas as observações que o usuário julgar necessárias referente a ordem cadastrada.
+executando
+
+Preenchidos todos os campos obrigatórios, clique em Salvar e continuar para passar ao preenchimento da guia Itens.
+
+Na guia Itens será inserido o abastecimento ou serviço necessário. Para isso, clique no botão +Serviço (ou +Abastecimento, dependendo do tipo de ordem que está sendo cadastrada).
+
+Na tela seguinte, se a ordem se tratar de um Serviço, informe o Tipo de despesa dentre as opções Combustíveis, Materiais ou Serviço, em seguida informe a Descrição do serviço ou abastecimento e, selecione a Especificação da ordem. Com isso, o sistema preencherá automaticamente o campo Unidade de medida e, o usuário deverá informar, por último, a Quantidade necessária.
+
+executando
+
+Caso a ordem cadastrada seja um Abastecimento, após a Especificação, o usuário deve informar se deseja Completar tanque, caso seja selecionada a opção Não, é habilitado o campo Quantidade, para informar a quantidade a ser abastecida.
+
+executando
+
+Caso a entidade possua a configuração de Controle de saldo do empenho por movimentação (menu Configurando > Parâmetros > Gerais > guia Por entidade), ao adicionar uma ordem, seja ela de abastecimento ou de serviço, o sistema exibirá o Saldo do empenho, limitando a inserção de itens/valores de modo que não ultrapassem o saldo.
+
+executando
+
+Ainda, vale destacar que, em se tratando de uma Ordem de abastecimento, para controlar corretamente o Saldo do empenho, sendo selecionada a opção Sim para o campo Completar tanque, é necessário que a Capacidade volumétrica do tanque do veículo esteja devidamente definida na funcionalidade específica (menu Administrando > Veículos e equipamentos > Editar > aba Combustíveis), eis que não tendo esta informação o sistema considerará a quantidade como zero, não sendo debitado do saldo Disponível o valor do abastecimento.
+
+executando
+
+Ainda, se uma Despesa tiver como origem uma Ordem de abastecimento/serviço, o valor considerado para o saldo do empenho será apenas da Despesa, desconsiderando o valor da ordem de abastecimento/serviço relacionado a Despesa.
+
+Os valores dos Empenhos poderão ser acompanhados por meio da tela de controle de Empenhos (menu Administrando > Controle > Empenhos).
+
+A tela Adicionando ordem de abastecimento ou serviço ainda conta com a guia Dados adicionais, onde é possível inserir outras informações que o usuário julgar importante. Para isso, é necessária a criação e configuração dos Campos adicionais por meio do menu Utilitários > Campos adicionais.
+
+Atenção:
+Não é possível cadastrar uma nova Ordem de abastecimento ou serviço para um veículo ou equipamento que possui uma ordem em Exercícios anteriores que esteja com situação igual a Pendente.
+
+Gerar despesa
+Essa etapa é facultativa, mas quando ocorre é de extrema importância.
+
+Há algumas situações em que a Ordem de abastecimento ou serviço gera o lançamento de uma despesa como, por exemplo, quando o abastecimento é para completar o tanque e não se sabe exatamente o valor e quantidade de combustível para isso.
+
+Nesses casos a despesa é lançada após o abastecimento ou serviço ter sido realizado, de modo a registrar o valor exato despendido.
+
+Para isso, acesse a tela Editando ordem de abastecimento ou serviço (ícone de lápis) e clique no botão Gerar despesa.
+
+executando
+
+Na tela Adicionando despesa insira as informações solicitadas (os campos com * são de preenchimento obrigatório). Lembre-se que os campos habilitados mudam conforme o Tipo de ordem cadastrada (Abastecimento ou Serviço).
+
+executando
+
+Clique em Salvar e continuar para passar ao preenchimento da etapa 2 - Itens.
+
+Na próxima etapa já serão listados os itens relacionados quando do cadastramento da ordem, bastando que o usuário informe a Quantidade, o Valor unitário e o Desconto (se houver). Os campos Subtotal e Valor total são calculados automaticamente pelo sistema.
+
+executando
+
+Vale ressaltar que o campo Desconto pode ser informado em Real (R$) ou percentual (%), para alterar o tipo de desconto, basta clicar na flecha e selecionar o tipo desejado.
+
+executando
+
+Ao final, clique em Salvar ou em Salvar e adicionar novo, para gerar uma nova despesa.
+
+Após efetuar o lançamento da despesa, na tela inicial da funcionalidade é listado o Nº do lançamento de despesa, facilitando a sua localização no ambiente de Despesas (menu Executando > Custos > Despesas).
+
+executando
+
+Emitir ordem de abastecimento
+É possível, ainda, emitir de forma rápida o relatório de Ordem de abastecimento, com informações detalhadas acerca da ordem cadastrada.
+
+Para isso, clique no ícone de impressora localizado no canto direito da listagem. Esse relatório é emitido independentemente da situação em que se encontra a ordem.
+
+executando
+
+Ao clicar no ícone, o sistema irá processar a solicitação comunicando a finalização por meio de uma mensagem no canto inferior esquerdo da tela. Para visualizar o relatório, clique no botão Ver resultado localizado no pop-up ou no ambiente de Notificações (ícone de sino).
+
+executando
+
+executando
+
+Reservas de veículos
+Nessa funcionalidade é possível realizar o registro e controle das reservas para a utilização dos veículos da entidade.
+
+Para acessar, utilize o menu Executando > Controles > Reservas de veículos.
+
+executando
+
+Pesquisar e Pesquisa avançada
+É possível realizar a pesquisa pelas ordens cadastradas utilizando a barra de pesquisa no canto direito da tela, onde o usuário pode pesquisar pelo Veículo, Placa, Organograma, Motorista ou CPF.
+
+Ainda há a possibilidade de realizar uma pesquisa avançada, acessada através do ícone de funil. Aqui o usuário também pode utilizar o campo Outras opções e realizar a busca pelo Período de saída estimada, Período de chegada estimada, Veículo, Motorista, Finalidade ou Organograma.
+
+executando
+
+Filtrar por
+Ainda, a funcionalidade conta com a barra Filtrar por, onde é possível visualizar as reservas cadastradas pelos filtros Todas, Pendentes, Atendidas ou Canceladas.
+
+executando
+
++Reserva de veículo
+Para realizar um novo cadastro clique no botão +Reserva de veículo e preencha as informações solicitadas, sendo:
+
+Reservado em: campo preenchido automaticamente pelo sistema com a data e hora em que está sendo realizado o registro;
+Saída estimada em: deve ser indicada a data e hora prevista para início da viagem;
+Chegada estimada em: deve ser inserida a data e hora prevista para o término da viagem;
+Veículo: o usuário deve indicar qual veículo está sendo reservado. Serão listado somente os veículos que não possuem um registro de reserva para a data selecionada e as opções são oriundas do cadastro de Veículos e equipamentos;
+Motorista: nesse campo será indicado o motorista que realizará a viagem. As opções disponíveis são provenientes do cadastro de Motoristas;
+Organograma: nesse campo deve ser indicado o organograma que será relacionado à reserva. As opções disponíveis são provenientes do cadastro de Organogramas, os quais devem estar previamente informados para o exercício vigente;
+Finalidade(s): nesse campo o usuário deverá informar a finalidade da viagem que está sendo programada;
+Observações: nesse campo podem ser inseridas outras informações que o usuário julgar necessárias.
+executando
+
+Ainda, na guia Dados adicionais é possível inserir outras informações que o usuário julgar importante. Para isso, é necessária a criação e configuração dos Campos adicionais por meio do menu Utilitários > Campos adicionais.
+
+Ao final, clique em Salvar ou Salvar e adicionar novo se desejar efetuar um novo registro.
+
+Após realizar o cadastramento, a reserva é listada na tela inicial, com status Pendente.
+
+executando
+
+O status será alterado para Atendida quando a reserva for atrelada a uma Viagem finalizada (menu Executando > Controles > Viagens).
+
+Cancelar reserva
+Para cancelar uma reserva cadastrada, basta clicar no ícone abaixo destacado:
+
+executando
+
+Em seguida insira o Motivo do cancelamento e clique em Salvar.
+
+Lembre-se que só é permitido Cancelar as reservas que possuírem status igual a Pendente.
+
+Rotas
+Por meio dessa funcionalidade é possível registrar as Rotas a serem realizadas pelos veículos da entidade, permitindo um maior controle, principalmente, da quilometragem dos veículos.
+
+Para acessar, utilize o menu Executando > Controles > Rotas.
+
+executando
+
+Pesquisar e Pesquisa avançada
+É possível realizar a pesquisa pelas ordens cadastradas utilizando a barra de pesquisa no canto direito da tela, onde o usuário pode pesquisar pela Descrição, Endereço de saída, ou Endereço de chegada.
+
+Ainda há a possibilidade de realizar uma pesquisa avançada, acessada através do ícone de funil.
+
++Rota
+Para adicionar uma nova rota, clique em +Rota e, na guia Informações gerais, preencha, inicialmente, a Descrição da rota criada e, em seguida insira o Endereço de saída e o Endereço de chegada. O sistema irá calcular automaticamente a Distância percorrida.
+
+executando
+
+Com os endereços inseridos, é possível alterar os pontos de saída e chegada por meio do mapa, clicando no pin e arrastando-o para o local desejado:
+
+executando
+
+Na guia Dados adicionais é possível inserir outras informações que o usuário julgar importante. Para isso, é necessária a criação e configuração dos Campos adicionais por meio do menu Utilitários > Campos adicionais.
+
+Para Editar ou Excluir uma rota cadastrada, basta clicar nos ícones de lápis ou lixeira, respectivamente, ambos localizados no canto esquerdo da listagem .
+
+executando
+
+Viagens
+Essa funcionalidade objetiva manter o registro e o controle das viagens realizadas pelos motoristas com a utilização dos veículos da frota da entidade.
+
+O acesso se dá por meio do menu Executando > Controles > Viagens.
+
+executando
+
+Pesquisar e Pesquisa avançada
+É possível realizar a pesquisa pelas ordens cadastradas utilizando a barra de pesquisa no canto direito da tela, onde o usuário pode pesquisar pelo Veículo ou Organograma.
+
+Ainda há a possibilidade de realizar uma pesquisa avançada, acessada através do ícone de funil.
+
+Filtrar por
+Ainda, a funcionalidade conta com a barra Filtrar por, onde é possível visualizar as reservas cadastradas pelos filtros Todas, Programadas, Em andamento, Realizadas ou Canceladas.
+
+executando
+
++Viagem
+Para realizar um novo registro, clique em +Viagem.
+
+Na tela Adicionando viagem, selecione o Nº da reserva do veículo (se houver) e informe a data de Saída e Chegada. Em seguida selecione o Veículo que será utilizado na viagem e o Motorista que fará o trajeto.
+
+O próximo passo é informar o Organograma que está relacionada a viagem e o Responsável pelo registro. No campo Finalidade(s) deve ser indicado o objetivo da viagem e no campo Observações podem ser inseridas outras informações importantes.
+
+executando
+
+Destaca-se que, o campo Nº da reserva do veículo é de preenchimento facultativo, no entanto, caso seja informado, o sistema importará as informações de Saída em, Veículo, Motorista, Organograma, Responsável e Finalidade(s) conforme informado na reserva.
+
+Após preencher todos os campos obrigatórios, deve ser informada a Rota a ser realizada. Para isso, clique no botão +Adicionar.
+
+executando
+
+No campo Rota, selecione uma rota previamente cadastrada na funcionalidade específica (menu Executando > Controles > Rotas). Os demais campos são de preenchimento facultativo.
+
+executando
+
+Para adicionar outras rotas, basta clicar no botão +Rota e repetir o processo.
+
+A funcionalidade conta, ainda, com a guia Dados adicionais, onde é possível inserir outras informações que o usuário julgar importante. Para isso, é necessária a criação e configuração dos Campos adicionais por meio do menu Utilitários > Campos adicionais.
+
+Ao final, clique em Salvar ou em Salvar e adicionar novo para inserir um novo registro.
+
+Com isso, a Viagem cadastrada é listada na página inicial, com informações do nº da Reserva e o status em que se encontra.
+
+executando
+
+Realizando viagem
+Para cadastrar a realização da viagem, clique no botão Editar (ícone de lápis) e, no campo Chegada em, selecione a data e hora da chegada, salvando as alterações ao final. A situação da viagem será alterada para Realizada na tela inicial.
+
+executando
+
+Acompanhamentos mensais
+Por meio dessa funcionalidade é possível acompanhar a quilometragem mensal dos veículos da frota da entidade.
+
+O acesso se dá por meio do menu Executando > Controles > Acompanhamentos mensais.
+
+executando
+
+Pesquisar e Pesquisa avançada
+É possível realizar a pesquisa pelas ordens cadastradas utilizando a barra de pesquisa no canto direito da tela, onde o usuário pode pesquisar pela Descrição ou Placa.
+
+Ainda há a possibilidade de realizar uma pesquisa avançada, acessada através do ícone de funil.
+
++Acompanhamento mensal
+Para inserir um novo registro, clique no botão +Acompanhamento mensal e, na tela Adicionando acompanhamento mensal insira as informações solicitadas, sendo:
+
+Veículo/Equipamento: deve ser indicado o veículo/equipamento que será realizado o acompanhamento, as opções são oriundas do cadastro de Veículos e equipamentos;
+Competência: informar a qual mês e ano se refere o acompanhamento (esse campo é preenchido automaticamente pelo sistema, mas pode ser alterado);
+Marcador: indicar se o marcador atual é o primeiro, segundo, terceiro, etc. do veículo;
+Marcação inicial: deve ser inserida a marcação que o veículo possuía no primeiro dia da competência;
+Marcação final: indicar a marcação que o veículo atingiu no último dia da competência;
+Quebrou o marcador?: informar se durante a competência houve quebra do marcador;
+Marcação na quebra: indicar a marcação que o veículo estava no momento da ocorrência de quebra. Esse campo só será habilitado, caso seja informada a opção Sim no campo Quebrou o marcador?;
+Nota explicativa: campo destinado à inserção de observações acerca do acompanhamento.
+executando
+
+Na guia Anexos é possível inserir documentos, fotos ou outros arquivos pertinentes ao acompanhamento mensal. Para isso, clique em +Anexo.
+
+E, na guia Dados adicionais é possível inserir outras informações que o usuário julgar importante. Para isso, é necessária a criação e configuração dos Campos adicionais por meio do menu Utilitários > Campos adicionais.
+
+Após salvar as informações, o acompanhamento é listado na tela inicial. Se houver quebra do marcador, o sistema exibe um ícone de alerta.
+
+executando
+
+Clicando sobre este ícone é possível obter maiores informações sobre a quebra.
+
+executando
+
+Ocorrências
+Essa funcionalidade permite o registro das ocorrências sofridas pela frota da entidade.
+
+O acesso se dá por meio do menu Executando > Controles > Ocorrências.
+
+executando
+
+Pesquisar e Pesquisa avançada
+É possível realizar a pesquisa pelas ordens cadastradas utilizando a barra de pesquisa no canto direito da tela, onde o usuário pode pesquisar pelo Número, Veículo/Equipamento, Motorista ou Tipo de ocorrência.
+
+Ainda há a possibilidade de realizar uma pesquisa avançada, acessada através do ícone de funil. Utilizando o filtro Outras opções é possível pesquisar pelo Período da ocorrência.
+
+executando
+
++Ocorrência
+Clicando no botão +Ocorrência é possível cadastrar uma nova ocorrência.
+
+Na tela Adicionando ocorrência, insira a Data e hora da ocorrência, em seguida, selecione o Veículo/Equipamento envolvido. O campo Quilometragem anterior é preenchido automaticamente pelo sistema. Posteriormente, informe a Quilometragem do veículo no momento da ocorrência e selecione o Tipo de ocorrência e o Motorista que estava utilizando o veículo ou equipamento no momento.
+
+Se desejar, informe as Observações do caso e clique em Salvar.
+
+executando
+
+Na guia Anexos é possível inserir documentos, fotos ou outros arquivos pertinentes ao acompanhamento mensal. Para isso, clique em +Anexo.
+
+E, na guia Dados adicionais é possível inserir outras informações que o usuário julgar importante. Para isso, é necessária a criação e configuração dos Campos adicionais por meio do menu Utilitários > Campos adicionais.
+
+Checklist do veículo
+O ambiente Checklist do veículo trata-se de uma tela com integração direta e automática com o aplicativo Frotas. Por meio dessa tela é possível acompanhar os checklists realizados pelos motoristas no aplicativo, com todas as informações prestadas.
+
+O acesso a funcionalidade se dá por meio do menu Executando > Controles > Checklist do veículo.
+
+executando
+
+IMPORTANTE:
+O ambiente Checklist do veículo tem a finalidade exclusiva de visualização, toda e qualquer alteração ou exclusão deve ser realizada por meio do aplicativo.
+
+Pesquisar e Pesquisa avançada
+É possível realizar a pesquisa pelos checklists cadastrados utilizando a barra de pesquisa localizada no canto direito da tela, onde o usuário poderá pesquisar pelo Veículo ou pela Placa.
+
+Ainda, há a possibilidade de realizar uma pesquisa avançada, acessada através do ícone de funil. Aqui o usuário também pode utilizar o campo Outras opções e realizar a busca por outros parâmetros, refinando ainda mais a pesquisa.
+
+executando
+
+Acessar detalhes do checklist
+Para visualizar os detalhes de um checklist, clique na flecha localizada no canto esquerdo da listagem.
+
+executando
+
+Ainda, se o item do checklist possuir uma imagem anexada, esta poderá ser visualizada no Frotas (Cloud) clicando no ícone destacado no canto direito da listagem.
+
+executando
+
+Manutenções
+O cadastro de Manutenções, acessado por meio do menu Executando > Controle > Manutenções, substitui o cadastro de Revisões, sendo muito mais completo e possibilitando ao usuário a inserção e visualização de informações mais detalhadas e específicas.
+
+Importante!
+Todos os registros constantes no cadastro de Revisões foram migrados para o cadastro de Manutenções, sendo classificados conforme seu Tipo de manutenção.
+
+Ao acessar a funcionalidade será exibida uma listagem contendo o Veículo, o Tipo de manutenção, a Data de previsão da manutenção, Data da manutenção e a Situação. Ou seja, a tela permite uma visualização fácil da situação de cada veículo da entidade e das manutenções que serão ou que foram realizadas nele.
+
+executando
+
+A listagem também conta com os botões de Editar (ícone de lápis) e Excluir (ícone de lixeira), possibilitando a edição e exclusão a qualquer tempo.
+
+Pesquisar e Pesquisa avançada
+É possível realizar a pesquisa pelas manutenções utilizando a barra de pesquisa localizada no canto direito da tela, onde o usuário poderá pesquisar pelo Veículo, Placa ou Tipo de manutenção.
+
+Ainda, há a possibilidade de realizar uma pesquisa avançada, acessada através do ícone de funil. Aqui o usuário também pode utilizar o campo Outras opções e realizar a busca por outros parâmetros, refinando ainda mais a pesquisa.
+
+executando
+
++Manutenção
+Para efetuar um novo cadastro, basta clicar no botão +Manutenção. Na tela Adicionando manutenção devem ser preenchidas as seguintes informações:
+
+Tipo de manutenção: nesse campo deve ser selecionado o tipo de manutenção que será realizada no veículo, esse campo é de preenchimento obrigatório. As opções disponíveis são oriundas do cadastro de Tipos de manutenção (Pesquisa rápida (ícone de lupa) > Tipos de manutenção);
+Veículo: nesse campo o usuário deve selecionar o veículo que passará pela manutenção;
+Quilometragem atual: o sistema preencherá automaticamente esse campo com a última quilometragem informada na despesa.
+Previsão: essa opção deve ser selecionada quando está sendo cadastrada apenas uma previsão da próxima manutenção do veículo ou equipamento;
+Realização: essa opção deve ser selecionada quando a manutenção já foi realizada;
+Data: neste campo deve ser informada a data de previsão ou realização da manutenção;
+Quilometragem: aqui o usuário deve informar a quilometragem atingida pelo o veículo quando da previsão ou da realização da manutenção;
+Nº do documento: este campo só é exibido quando o cadastro se tratar da Realização de uma manutenção. Aqui poderá ser inserido o número da nota fiscal da execução do serviço.
+Observações: aqui podem ser inseridas as observações pertinentes ao caso.
+executando
+
+A tela ainda conta com a guia Anexos, onde podem ser inseridos documentos, fotos ou outros arquivos que forem pertinentes ao cadastro e, na guia Dados adicionais, é possível inserir outras informações que o usuário julgar importante. Para isso, é necessária a criação e configuração dos Campos adicionais por meio do menu Utilitários > Campos adicionais.
+
+Após o cadastramento, a manutenção será listada na página inicial com a Situação conforme o cadastramento sendo:
+
+Realizada: quando já a manutenção já foi efetuada
+Prevista: quando foi agendada a manutenção, mas ainda não foi efetuada;
+Em atraso: quando ainda não foi realizada e a data de previsão já decorreu ou quilometragem já atingiu o limite definido.
+Para realizar uma manutenção com Situação igual à Prevista ou Em atraso, basta clicar no ícone destacado:
+
+executando
+
+Em seguida, na tela Realizando manutenção, o usuário deve preencher os dados solicitados (os campos com * são de preenchimento obrigatório) e, ao final, clicar em Salvar.
+
+executando
+
+Com o cadastramento, o sistema irá atualizar o status da manutenção, alterando-o para Realizada.
+
+Desfazer manutenção
+O sistema também permite o retorno da Situação de uma manutenção que esteja como Realizada, ou seja, é possível desfazer o registro. Para isso, basta clicar no botão Desfazer (ícone de flecha).
+
+executando
+
+Importante!
+Só é possível Desfazer uma manutenção quando o registro foi inicialmente cadastrado como uma Previsão, ou seja, se a manutenção foi inicialmente cadastrada como Realizada, o sistema não irá habilitar o botão Desfazer, uma vez que não há um status para ser retornado.
+
+Antes de desfazer a manutenção, o sistema apresenta uma mensagem de confirmação e, ao clicar em Sim, o registro será desfeito.
+
+executando
+
+Atenção!
+Ao Desfazer a realização de uma manutenção todos os dados inseridos quando do cadastro da Realização são apagados, retornando o registro ao último status anterior ao cadastramento.
+
+Custos
+Despesas
+Por meio dessa funcionalidade podem ser efetuados os registros das despesas da frota da entidade.
+
+Para acessá-la utilize o menu Executando > Custos > Despesas.
+
+executando
+
+Calendário de despesas
+A funcionalidade conta com o Calendário de despesas onde é possível acompanhar de forma fácil os dias em que foram lançadas despesas (azul).
+
+executando
+
+Clicando na data desejada, o sistema lista no lado esquerdo da tela todas as despesas lançadas naquela data, facilitando a localização e visualização.
+
+Pesquisar e Pesquisa avançada
+É possível realizar a pesquisa pelas ordens cadastradas utilizando a barra de pesquisa no canto direito da tela, onde o usuário pode pesquisar pelo Veículo/Equipamento, Motorista, Fornecedor, Organograma, Número do lançamento, Placa do veículo, Número do documento ou Tipo de ocorrência.
+
+Ainda há a possibilidade de realizar uma pesquisa avançada, acessada através do ícone de funil.
+
++Despesa
+Para realizar o cadastro de uma nova despesa, utilize o botão +Despesa e, na tela Adicionando despesa insira as informações solicitadas (os campos com * são de preenchimento obrigatório).
+
+executando
+
+Clique em Salvar e continuar para passar ao preenchimento da etapa 2 - Itens.
+
+Na próxima etapa, clique no botão +Item para informar o que gerou a despesa.
+
+Inicie o preenchimento indicando o Tipo de despesa (Combustíveis, Materiais ou Serviços) a ser cadastrada e a Descrição e a Especificação.
+
+Dependendo do Tipo selecionado, alguns campos serão habilitados ou desabilitados. Caso o Tipo seja Combustíveis, será habilitado o campo Tanque cheio. Em seguida, informe a Quantidade e o Valor unitário do item. Os campos Subtotal e Valor total são preenchidos pelo sistema.
+
+Caso haja algum Desconto, selecione a forma de desconto, que pode ser informado em Real (R$) ou percentual (%) (para alterar o tipo de desconto, basta clicar na flecha e selecionar o tipo desejado) e informe o valor/percentual a ser descontado.
+
+Se houver Empenho relacionado, é possível fazer a seleção no campo específico.
+
+Ao final, clique em Salvar ou em Salvar e adicionar novo, para inserir um novo item.
+
+executando
+
+Retornando à tela Adicionando despesa, será relacionado o item adicionado. Caso desejar, é possível alterar as informações clicando no ícone de lápis.
+
+executando
+
+Na guia Anexos é possível inserir documentos, fotos ou outros arquivos pertinentes a despesa. Para isso, clique em +Anexo.
+
+E, na guia Dados adicionais é possível inserir outras informações que o usuário julgar importante. Para isso, é necessária a criação e configuração dos Campos adicionais por meio do menu Utilitários > Campos adicionais.
+
+Após adicionar todos os itens desejados, clique em Salvar.
+
+Taxas e licenciamentos
+Por meio dessa funcionalidade é possível controlar as taxas e licenciamentos referentes aos veículos da entidade.
+
+Para acessá-la utilize o menu Executando > Custos > Taxas e licenciamentos.
+
+executando
+
+Clicando no ícone de + localizado no canto esquerdo da listagem é possível expandir o quadro e visualizar todas as taxas e licenciamentos cadastrados para o veículo, com informações como exercício, valor, quantidade de parcelas e situação.
+
+executando
+
+Pesquisar e Pesquisa avançada
+É possível realizar a pesquisa pelas ordens cadastradas utilizando a barra de pesquisa no canto direito da tela, onde o usuário pode pesquisar pelo Veículo/Equipamento, Tipo taxa, Exercício ou Placa.
+
+Ainda há a possibilidade de realizar uma pesquisa avançada, acessada através do ícone de funil.
+
++Taxa ou licenciamento
+Para cadastrar uma nova taxa ou licenciamento, clique no botão +Taxa ou licenciamento.
+
+A tela Adicionando taxa ou licenciamento é dividida em duas guias: Informações gerais e Dados adicionais.
+
+A guia Informações gerais, por sua vez, é dividida em duas etapas: Informações gerais e Parcelas. Na primeira etapa serão inseridos os dados básicos da taxa ou licenciamento a ser cadastrado: o Veículo ao que se refere aquela cobrança, o Tipo de taxa ou licenciamento, o Ano e o Valor da cobrança. Se desejar, podem ser inseridas Observações.
+
+executando
+
+Após preencher todas as informações, clique em Salvar e continuar para passar ao preenchimento da próxima etapa.
+
+Na etapa Parcelas, clique em +Parcela e adicione a Data do vencimento da parcela e o Valor. Caso a parcela cadastrada já tenha sido paga, insira a data, caso contrário, basta clicar em Salvar.
+
+executando
+
+Retornando à tela Adicionando taxa ou licenciamento, serão listadas todas as parcelas cadastradas, bem como, sua Situação, que pode ser Pago, Em atraso ou Em aberto.
+
+executando
+
+Para visualizar a Data do pagamento da parcela, clique no ícone de + localizado ao lado do número da parcela.
+
+executando
+
+Para registrar a data do pagamento de uma parcela já cadastrada basta clicar em Editar (ícone de lápis) e, na tela Editando parcela, inserir a Data do pagamento. Caso o pagamento tenha sido realizado após a data de vencimento da parcela, será habilitado o campo Juros, onde o usuário deve inserir o valor referente,
+
+Ao final, clique em Salvar.
+
+executando
+
+Ainda na tela Adicionando taxa ou licenciamento, temos a guia Dados adicionais, onde é possível inserir outras informações que o usuário julgar importante. Para isso, é necessária a criação e configuração dos Campos adicionais por meio do menu Utilitários > Campos adicionais.
+
+Multas de trânsito
+Nessa funcionalidade serão cadastradas as multas de trânsito destinadas aos veículos da frota da entidade.
+
+Para acessá-la utilize o menu Executando > Custos > Multas de trânsito.
+
+executando
+
+Pesquisar e Pesquisa avançada
+É possível realizar a pesquisa pelas ordens cadastradas utilizando a barra de pesquisa no canto direito da tela, onde o usuário pode pesquisar pelo Nº da notificação, Veículo ou Motorista.
+
+Ainda há a possibilidade de realizar uma pesquisa avançada, acessada através do ícone de funil.
+
++Multa de trânsito
+Para inserir um novo registro, clique em +Multa de trânsito.
+
+Inicie o preenchimento selecionando o Veículo ao qual foi direcionada a multa. Em seguida, informe a data em que ele foi Multado e o Motorista que estava envolvido. Informe o Nº da notificação recebida e a Data de vencimento da multa. Se desejar insira as Observações.
+
+executando
+
+Guia Local da infração
+Para o preenchimento da guia Local da infração, clique em Abrir.
+
+executando
+
+Selecione o Município/UF, Bairro, Logradouro e Complemento (se houver) onde ocorreu a infração.
+
+Para minimizar a guia, clique em Fechar.
+
+executando
+
+Guia Infrações
+Para o preenchimento da guia Infrações, clique em Abrir.
+
+No campo Infração, indique o que ensejou a multa, digite a descrição e caso não encontre o motivo desejado, clique no botão Adicionar, o qual aparecerá no final da listagem apresentada.
+
+executando
+
+Na tela Adicionando tipo de infração insira o Código da infração, a Descrição, o Amparo legal e a Gravidade da infração, dados estes constantes na notificação de autuação. Em seguida selecione o Infrator, a Competência e os Pontos daquela infração. O campo Valor é de preenchimento facultativo.
+
+executando
+
+Ao finalizar o cadastramento, clique em Salvar.
+
+Podem ser inseridas quantas infrações forem necessárias, utilizando o botão +Infração.
+
+executando
+
+Guia Recurso/Pagamento
+Esta guia é de preenchimento facultativo, uma vez que não é obrigatória a interposição de Recurso e, o Pagamento pode ocorrer em momento posterior ao cadastramento da infração.
+
+Havendo interposição de Recurso, informe a Data do recurso e a atual Situação.
+
+Quanto ao pagamento, são necessários informar os campos Data do pagamento, Valor de juros (esse campo só é habilitado quando o pagamento for realizado após a Data de vencimento), Valor de desconto (se houver) e o Valor pago.
+
+O campo Responsável pelo pagamento é de preenchimento facultativo, mas nele poderá ser selecionado quem efetuará o pagamento da multa, dentre as opções Entidade, Servidor ou Outros.
+
+Vale destacar que esse campo só será habilitado quando for informada a Data do pagamento da multa.
+
+Já o campo Forma de pagamento é um reflexo da nova funcionalidade disponibilizada, onde o usuário poderá selecionar como será efetuado o pagamento daquela multa, conforme as opções cadastradas na funcionalidade Forma de pagamento.
+
+executando
+
+Na guia Anexos é possível inserir a notificação de autuação, documentos, fotos ou outros arquivos relativos à multa de trânsito. Para isso, clique em +Anexo.
+
+executando
+
+Preenchidas todas as guias necessárias, clique em Salvar e a multa cadastrada aparecerá na listagem disponível na tela inicial.
+
+Para registrar o pagamento de uma multa de trânsito já cadastrada, clique em Editar (ícone de lápis), abra a guia Recurso/Pagamento e preencha os campos Data do Pagamento, Valor pago e, se desejar, informe o Responsável pelo pagamento e a Forma de pagamento.
+
+executando
+
+Ainda, na tela inicial há um atalho para a visualização dos Anexos cadastrados: clique em Outras opções > Ações disponíveis > Anexos.
+
+executando
+
+
+

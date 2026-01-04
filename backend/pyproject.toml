@@ -1,0 +1,42 @@
+[tool.poetry]
+package-mode = false
+
+[project]
+name = "backend"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "DEV-Lemos",email = "isac.lemos@outlook.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "django (>=5.0,<5.1)",
+    "djangorestframework (>=3.16.1,<4.0.0)",
+    "psycopg[binary] (>=3.3.2,<4.0.0)",
+    "python-dotenv (>=1.2.1,<2.0.0)",
+    "dj-database-url (>=3.0.1,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "ruff (>=0.14.10,<0.15.0)",
+    "black (>=25.12.0,<26.0.0)",
+    "pytest (>=9.0.2,<10.0.0)",
+    "pytest-django (>=4.11.1,<5.0.0)",
+    "ipython (>=9.8.0,<10.0.0)",
+    "pre-commit (>=4.5.1,<5.0.0)"
+]
+
+[tool.black]
+line-length = 100
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+select = ["E", "F", "I", "B", "UP"]

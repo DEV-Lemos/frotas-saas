@@ -1,0 +1,217 @@
+Project frotas_saas {
+  database_type: "PostgreSQL"
+  Note: "Modelo base (MVP) - Sistema de Frotas multiempresa (pt-BR)"
+}
+
+Table empresas {
+  id uuid [pk]
+  razao_social varchar(180) [not null]
+  nome_fantasia varchar(180)
+  cnpj char(14) [unique, note: "Somente números"]
+  email varchar(180)
+  telefone varchar(20)
+  ativa boolean [not null, default: true]
+  criada_em timestamp [not null]
+  atualizada_em timestamp
+}
+
+Table usuarios {
+  id uuid [pk]
+  empresa_id uuid [not null, ref: > empresas.id]
+  nome varchar(180) [not null]
+  email varchar(180) [not null]
+  senha_hash varchar(255) [not null]
+  ativo boolean [not null, default: true]
+  ultimo_login_em timestamp
+  criado_em timestamp [not null]
+  atualizado_em timestamp
+
+  indexes {
+    (empresa_id, email) [unique, name: "uq_usuario_empresa_email"]
+  }
+}
+
+Table perfis {
+  id uuid [pk]
+  empresa_id uuid [not null, ref: > empresas.id]
+  nome varchar(80) [not null, note: "Ex: ADMIN, GESTOR, OPERADOR"]
+  descricao varchar(255)
+
+  indexes {
+    (empresa_id, nome) [unique, name: "uq_perfil_empresa_nome"]
+  }
+}
+
+Table usuarios_perfis {
+  id uuid [pk]
+  usuario_id uuid [not null, ref: > usuarios.id]
+  perfil_id uuid [not null, ref: > perfis.id]
+  criado_em timestamp [not null]
+
+  indexes {
+    (usuario_id, perfil_id) [unique, name: "uq_usuario_perfil"]
+  }
+}
+
+Table motoristas {
+  id uuid [pk]
+  empresa_id uuid [not null, ref: > empresas.id]
+  nome varchar(180) [not null]
+  cpf char(11) [note: "Somente números"]
+  cnh_numero varchar(30)
+  cnh_categoria varchar(5) [note: "Ex: A, B, C, D, E, AB..."]
+  cnh_validade date
+  telefone varchar(20)
+  email varchar(180)
+  ativo boolean [not null, default: true]
+  criado_em timestamp [not null]
+  atualizado_em timestamp
+
+  indexes {
+    (empresa_id, cpf) [unique, name: "uq_motorista_empresa_cpf"]
+  }
+}
+
+Table veiculos {
+  id uuid [pk]
+  empresa_id uuid [not null, ref: > empresas.id]
+  placa varchar(10) [not null, note: "Ex: ABC1D23 ou ABC-1234"]
+  renavam varchar(20)
+  chassi varchar(30)
+  marca varchar(60)
+  modelo varchar(80)
+  ano_fabricacao int
+  ano_modelo int
+  cor varchar(40)
+  tipo varchar(40) [note: "Carro, Moto, Caminhão..."]
+  combustivel varchar(30) [note: "Gasolina, Diesel, Flex, Elétrico..."]
+  hodometro_km int [not null, default: 0]
+  status varchar(20) [not null, note: "DISPONIVEL, EM_USO, MANUTENCAO, INATIVO"]
+  ativo boolean [not null, default: true]
+  criado_em timestamp [not null]
+  atualizado_em timestamp
+
+  indexes {
+    (empresa_id, placa) [unique, name: "uq_veiculo_empresa_placa"]
+  }
+}
+
+Table reservas {
+  id uuid [pk]
+  empresa_id uuid [not null, ref: > empresas.id]
+  veiculo_id uuid [not null, ref: > veiculos.id]
+  motorista_id uuid [ref: > motoristas.id]
+  solicitante_id uuid [not null, ref: > usuarios.id]
+  data_inicio timestamp [not null]
+  data_fim timestamp [not null]
+  finalidade varchar(255)
+  status varchar(20) [not null, note: "SOLICITADA, APROVADA, REJEITADA, CANCELADA, CONCLUIDA"]
+  criado_em timestamp [not null]
+  atualizado_em timestamp
+}
+
+Table viagens {
+  id uuid [pk]
+  empresa_id uuid [not null, ref: > empresas.id]
+  veiculo_id uuid [not null, ref: > veiculos.id]
+  motorista_id uuid [ref: > motoristas.id]
+  reserva_id uuid [ref: > reservas.id]
+  data_saida timestamp [not null]
+  data_retorno timestamp
+  origem varchar(180)
+  destino varchar(180)
+  km_saida int
+  km_retorno int
+  observacoes text
+  status varchar(20) [not null, note: "ABERTA, FINALIZADA, CANCELADA"]
+  criado_em timestamp [not null]
+  atualizado_em timestamp
+}
+
+Table fornecedores {
+  id uuid [pk]
+  empresa_id uuid [not null, ref: > empresas.id]
+  nome varchar(180) [not null]
+  cnpj char(14)
+  telefone varchar(20)
+  email varchar(180)
+  tipo varchar(30) [note: "OFICINA, POSTO, SEGURADORA, OUTROS"]
+  ativo boolean [not null, default: true]
+  criado_em timestamp [not null]
+}
+
+Table manutencoes {
+  id uuid [pk]
+  empresa_id uuid [not null, ref: > empresas.id]
+  veiculo_id uuid [not null, ref: > veiculos.id]
+  fornecedor_id uuid [ref: > fornecedores.id]
+  tipo varchar(30) [not null, note: "PREVENTIVA, CORRETIVA"]
+  descricao varchar(255)
+  data_prevista date
+  data_execucao date
+  km_referencia int
+  valor numeric(12,2)
+  status varchar(20) [not null, note: "ABERTA, EM_ANDAMENTO, CONCLUIDA, CANCELADA"]
+  criado_em timestamp [not null]
+  atualizado_em timestamp
+}
+
+Table abastecimentos {
+  id uuid [pk]
+  empresa_id uuid [not null, ref: > empresas.id]
+  veiculo_id uuid [not null, ref: > veiculos.id]
+  fornecedor_id uuid [ref: > fornecedores.id, note: "Posto (opcional)"]
+  data timestamp [not null]
+  combustivel varchar(30) [not null]
+  litros numeric(10,3) [not null]
+  valor_total numeric(12,2) [not null]
+  km_hodometro int
+  observacoes varchar(255)
+  criado_em timestamp [not null]
+}
+
+Table despesas {
+  id uuid [pk]
+  empresa_id uuid [not null, ref: > empresas.id]
+  veiculo_id uuid [ref: > veiculos.id]
+  viagem_id uuid [ref: > viagens.id]
+  fornecedor_id uuid [ref: > fornecedores.id]
+  data timestamp [not null]
+  categoria varchar(40) [not null, note: "PEDAGIO, ESTACIONAMENTO, MULTA, SEGURO, OUTROS"]
+  descricao varchar(255)
+  valor numeric(12,2) [not null]
+  criado_em timestamp [not null]
+}
+
+Table anexos {
+  id uuid [pk]
+  empresa_id uuid [not null, ref: > empresas.id]
+  entidade varchar(40) [not null, note: "VEICULO, MOTORISTA, VIAGEM, MANUTENCAO, DESPESA..."]
+  entidade_id uuid [not null, note: "ID do registro dono do anexo"]
+  nome_arquivo varchar(255) [not null]
+  mime_type varchar(100)
+  url_armazenamento text [not null, note: "S3/MinIO/GCS etc"]
+  criado_em timestamp [not null]
+}
+
+Table auditoria {
+  id uuid [pk]
+  empresa_id uuid [not null, ref: > empresas.id]
+  usuario_id uuid [ref: > usuarios.id]
+  entidade varchar(60) [not null]
+  entidade_id uuid
+  acao varchar(20) [not null, note: "CRIAR, ATUALIZAR, EXCLUIR, LOGIN, LOGOUT"]
+  dados_antes json
+  dados_depois json
+  ip varchar(45)
+  user_agent varchar(255)
+  criado_em timestamp [not null]
+}
+
+/*
+Relacionamentos principais (visuais):
+- Empresa 1:N em quase tudo.
+- Veículo 1:N Viagens/Manutenções/Abastecimentos/Reservas.
+- Viagem 1:N Despesas.
+- Usuário N:N Perfis.
+*/

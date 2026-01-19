@@ -1,12 +1,10 @@
-import uuid
-
 from django.core.validators import RegexValidator
 from django.db import models
 
+from .base import TimestampedModel
 
-class Empresa(models.Model):
-    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
 
+class Empresa(TimestampedModel):
     razao_social = models.CharField(max_length=180)
     nome_fantasia = models.CharField(max_length=180, blank=True)
 
@@ -28,9 +26,6 @@ class Empresa(models.Model):
     telefone = models.CharField(max_length=20, blank=True)
 
     ativa = models.BooleanField(default=True)
-
-    criada_em = models.DateTimeField(auto_now_add=True)
-    atualizada_em = models.DateTimeField(auto_now=True)
 
     class Meta:
         db_table = "empresas"

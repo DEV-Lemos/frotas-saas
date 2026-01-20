@@ -27,3 +27,8 @@ htmlcov/
 .vscode/
 .DS_Store
 Thumbs.db
+
+
+# arquivos locais
+*.zip
+ESTRUTURA DE PASTAS.txt

@@ -1,7 +1,6 @@
 import uuid
 
 from django.db import models
-from django.utils import timezone
 
 
 class UUIDModel(models.Model):
@@ -11,16 +10,17 @@ class UUIDModel(models.Model):
         abstract = True
 
 
-class TenantAwareModel(models.Model):
-    tenant_id = models.UUIDField()
+class TenantAwareModel(UUIDModel):
+    """
+    Use em qualquer model que pertence a uma Empresa (tenant).
+    """
 
-    class Meta:
-        abstract = True
-
-
-class TimeStampedModel(models.Model):
-    created_at = models.DateTimeField(default=timezone.now)
-    updated_at = models.DateTimeField(auto_now=True)
+    empresa = models.ForeignKey(
+        "tenants.Empresa",
+        on_delete=models.PROTECT,
+        related_name="%(class)ss",
+        db_index=True,
+    )
 
     class Meta:
         abstract = True
